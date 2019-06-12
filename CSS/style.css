@@ -13,17 +13,20 @@ body {
 }
 
 .home-hero {
-  background: url('../assets/images/hero-background-iphoneplus.svg') #212228;
+  background: url('../assets/images/hero-background-iphonex.svg') #212228;
   background-repeat: no-repeat;
-  height:66.7rem;
+  height:78.7rem;
+  width:37.5rem;
 }
 
 header.top-nav {
+  /*border there for template*/
   border: 2px solid red;
   max-width: 37.5rem;
 }
 
 .nav-container {
+  /*border there for template*/
   border: 2px solid mistyrose;
   display: flex;
   margin: 0 4.3rem;
@@ -31,45 +34,15 @@ header.top-nav {
   max-width: 28.9rem;
 }
 
-/* .header-nav {
-  display: flex;
-} */
 
-.item1 {
-  height: 2.0rem;
-  width: 28.9rem;
-  border: 2px solid green;
-}
-.item2 {
-  height: 5.0rem;
-}
-.nav-logo {
+.nav1 {
   height: 8.5rem;
   width: 16rem;
 }
 
-.item3 {
-  height: 5.0rem;
-}
-.nav-menu {
+.nav2 {
   height: 3.1rem;
   width: 3.1rem;
-}
-
-.item4 {
-  height: 2.0rem;
-  width: 28.9rem;
-  border: 2px solid green;
-}
-
-h6 {
-  color: #fff;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400i;
-}
-.speaker {
-  height: 1.2rem;
-  weight: 1.2rem;
 }
 
 section.hero {
