@@ -19,6 +19,7 @@ body {
 }
 
 header.top-nav {
+  border: 2px solid red;
   max-width: 37.5rem;
 }
 
@@ -34,24 +35,28 @@ header.top-nav {
   display: flex;
 } */
 
-.box-top {
+.item1 {
   height: 2.0rem;
   width: 28.9rem;
   border: 2px solid green;
 }
+.item2 {
+  height: 5.0rem;
+}
 .nav-logo {
-  flex-grow: 1;
   height: 8.5rem;
   width: 16rem;
 }
 
+.item3 {
+  height: 5.0rem;
+}
 .nav-menu {
-  flex-grow: 2;
   height: 3.1rem;
   width: 3.1rem;
 }
 
-.box-btm {
+.item4 {
   height: 2.0rem;
   width: 28.9rem;
   border: 2px solid green;
@@ -60,12 +65,12 @@ header.top-nav {
 h6 {
   color: #fff;
   font-family: "Montserrat", sans-serif;
-  font-size: 1.2rem;
+  font-weight: 400i;
 }
-/* .speaker {
+.speaker {
   height: 1.2rem;
   weight: 1.2rem;
-} */
+}
 
 section.hero {
     padding-left: 4.3rem;
@@ -74,6 +79,7 @@ section.hero {
 h1 {
   color: #55EE80;
   font-family: "Homemade Apple", cursive;
+  font-style: italic;
   font-size: 3.6rem;
 }
 
