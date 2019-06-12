@@ -1,3 +1,96 @@
-h1.lets {
-  font-family: font-family: 'Homemade Apple', cursive;
+/* ===> * <=== means universal symbol - applies to all*/
+* {
+  box-sizing: border-box;
+}
+
+
+html {
+  font-size: 10px;
+}
+
+body {
+  background-color: #3031CF;
+}
+
+.container {
+  width: 37.5rem;
+  margin
+}
+
+.home-hero {
+  background: url('../assets/images/hero-background-iphoneplus.svg') #212228;
+  height:80.02rem;
+}
+
+.header-nav {
+  background-color: blue;
+  display: flex;
+  flex-grow: 1;
+  margin: 0 4.3rem;
+  height: 10rem;
+  width: 100% auto;
+}
+
+.nav-logo {
+  flex-grow: 1;
+  /* height: 8.5rem;
+  width: 16rem; */
+}
+
+.menu-btn {
+  /* flex-grow: 2; */
+  /* height: 3.1rem
+  width: 3.1rem; */
+}
+
+/* pronunciation of Tullie */
+/* span#how-to-say {
+} */
+
+/* h6 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.2rem;
+} */
+/* .speaker {
+  height: 1.2rem;
+  weight: 1.2rem;
+} */
+
+section.hero {
+    padding-left: 4.3rem;
+}
+
+h1 {
+  color: #55EE80;
+  font-family: "Homemade Apple", cursive;
+  font-size: 3.6rem;
+}
+
+h3 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.0rem;
+}
+
+span#blackh3 {
+  font-weight: 900;
+}
+
+.button {
+    background: #55EE80;
+    border-radius: 0.4rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+    color: #000000;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight:600;
+    height: 3.7rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+    padding: 1rem 2rem;
+    margin: 2rem 1rem;
+    width: 11rem;
 }
