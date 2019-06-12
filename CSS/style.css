@@ -3,55 +3,65 @@
   box-sizing: border-box;
 }
 
-
 html {
   font-size: 10px;
 }
 
 body {
-  background-color: #3031CF;
-}
-
-.container {
-  width: 37.5rem;
-  margin
+  background-color: yellow;
+  display: 37.5rem;
 }
 
 .home-hero {
   background: url('../assets/images/hero-background-iphoneplus.svg') #212228;
-  height:80.02rem;
+  background-repeat: no-repeat;
+  height:66.7rem;
 }
 
-.header-nav {
-  background-color: blue;
+header.top-nav {
+  max-width: 37.5rem;
+}
+
+.nav-container {
+  border: 2px solid mistyrose;
   display: flex;
-  flex-grow: 1;
   margin: 0 4.3rem;
-  height: 10rem;
-  width: 100% auto;
+  max-height: 8.0rem;
+  max-width: 28.9rem;
 }
 
-.nav-logo {
-  flex-grow: 1;
-  /* height: 8.5rem;
-  width: 16rem; */
-}
-
-.menu-btn {
-  /* flex-grow: 2; */
-  /* height: 3.1rem
-  width: 3.1rem; */
-}
-
-/* pronunciation of Tullie */
-/* span#how-to-say {
+/* .header-nav {
+  display: flex;
 } */
 
-/* h6 {
+.box-top {
+  height: 2.0rem;
+  width: 28.9rem;
+  border: 2px solid green;
+}
+.nav-logo {
+  flex-grow: 1;
+  height: 8.5rem;
+  width: 16rem;
+}
+
+.nav-menu {
+  flex-grow: 2;
+  height: 3.1rem;
+  width: 3.1rem;
+}
+
+.box-btm {
+  height: 2.0rem;
+  width: 28.9rem;
+  border: 2px solid green;
+}
+
+h6 {
   color: #fff;
   font-family: "Montserrat", sans-serif;
   font-size: 1.2rem;
-} */
+}
 /* .speaker {
   height: 1.2rem;
   weight: 1.2rem;
@@ -93,4 +103,31 @@ span#blackh3 {
     padding: 1rem 2rem;
     margin: 2rem 1rem;
     width: 11rem;
+}
+
+
+img.clouder-home {
+  width: 25%;
+}
+
+img.busybus-home {
+  width: 25%;
+}
+
+img.blocjams-landing {
+  width: 25%;
+}
+
+img.github {
+  width: 25%;
+}
+
+img.email {
+  width: 25%;
+}
+img.Linkedin {
+  width: 25%;
+}
+img.insta {
+  width: 25%;
 }
