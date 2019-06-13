@@ -19,31 +19,84 @@ body {
   width:37.5rem;
 }
 
-header.top-nav {
-  /*border there for template*/
-  border: 2px solid red;
-  max-width: 37.5rem;
-}
-
-.nav-container {
-  /*border there for template*/
-  border: 2px solid mistyrose;
-  display: flex;
-  margin: 0 4.3rem;
-  max-height: 8.0rem;
+header.nav-container {
+  display: grid;
+  grid-template-columns: 6.5rem 15.0rem 4.3rem 3.1rem;
+  grid-template-rows: 3.0rem 6.0rem 3.0rem;
   max-width: 28.9rem;
+  width: 28.9rem;
 }
 
+.nav-top-space {
+grid-row:1 / 2;
+grid-column: 1 / 5;
+max-width: 28.9rem
 
-.nav1 {
-  height: 8.5rem;
-  width: 16rem;
 }
 
-.nav2 {
+.nav-logo {
+  grid-row: 2 / 4;
+  grid-column: 1 / 2;
+}
+
+.tullie-logo {
+  height: 6.4rem;
+  width: 6.4rem;
+}
+
+h4.tullie-nav {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.0rem;
+  font-weight: 500;
+  padding-left: 1.8rem;
+}
+
+.bgr-menu {
   height: 3.1rem;
-  width: 3.1rem;
+  width:3.1rem;
+  padding-top: 3.1rem;
 }
+
+h6.phonetic {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 3.0rem;
+  padding-left: 1.8rem;
+}
+
+
+.speaker {
+  height: 2.1rem;
+  line-height: 3.0rem;
+  width: 2.1rem;
+  padding-top: 0.5rem;
+  padding-left: 23%;
+}
+
+.sayit {
+  display: flex;
+}
+/* OTHER STYLES */
+
+body {
+  background-color: #3b404e;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-grid {
+  font-family: "Montserrat", san-serif;
+  background-color: #333333;
+  border: 1px solid #171717;
+}
+
+
 
 section.hero {
     padding-left: 4.3rem;
