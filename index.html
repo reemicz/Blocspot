@@ -3,109 +3,113 @@
 <head>
 
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-        <title>Tullie Helene | UX Designer </title>
-
-
-        <!--Favicon -->
-        <link rel="icon" type="image/png" href="assets/images/LOGOtullieheleneBlack.svg">
+        <title>Tullie Helene | Product Developer </title>
 
         <!--CSS-->
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/main.css">
-
+        <link rel="stylesheet" href="css/style.css">
 
         <!--FONTS-->
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Homemade+Apple&display=swap" >
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,700,900&display=swap">
 
-    </head>
+        <!--Favicon -->
+        <link rel="icon" type="image/png" href="assets/images/logo-favicon-wht.svg">
 
-<!-- Begin Rendered HTML-->
-<body>
+</head>
 
-<!--header: this code should be on every page consecutively-->
-<section class="header-nav">
-    <img src="assets/images/landinglogo.svg" alt="Tullie Helene Landing logo">
+<body id="homepage">
+    <!-- wraps responsive content -->
 
-    <a class="nav-link" href="#Home">Home</a>
-    <a class="nav-link" href="#Projects">Projects</a>
-    <a class="nav-link" href="#Method">Method</a>
-    <a class="nav-link" href="#About">About</a>
-</section>
+    <div id="wrapper">
+      <div class="home-hero">
+        <header>
+            <div id="logo">
+                <img src="assets/icons/logo-nav-wht.png" alt="Tullie Helene logo with T-UH-L-ee pronunciation guide">
+            </div>
+            <nav>
+                <ul>
+                    <li><a class="link" href="index.html">Home</a></li>
+                    <li><a class="link" href="projects.html">Projects</a></li>
+                    <li><a class="link" href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="hero">
+              <div class="hero-content">
+                <p class="lets">Let's do this!</p>
+                <p class="hero-p">I am <strong>Tullie Helene</strong><br>
+                an Australian born <strong>UX Designer</strong><br>
+                who works from <strong>everywhere</strong>.</p>
+                <a class="btn" href="#About">MORE</a>
+                <img class="hero-dwn-btn" src="assets/icons/play-dwn-grn.png" alt="Green Arrow Down">
+              </div>
+            </section>
+        </main>
+      </div>
+    </div>
 
-<!--hero-->
 
-<section class="hero">
-  <img class="hero-background" src="assets/images/HeroImg.svg">
-            <h6>T-UH-L-ee</h6>
-            <img class="speaker" src="assets/icons/speaker.svg" alt="Press speaker for name pronunciation">
 
-            <h1>Let's do this!</h1><br><br>
-
-            <h3> I am <b>Tullie Helene</b><br>
-              an Australian born <b>UX Designer</b><br>
-              who works from <b>everywhere</b>.<br>
-
-  <a class="button" href="#About">MORE</a>
-
-  <img src="assets/icons/polygondowngreen.svg" alt="Green Arrow Down">
 
     <!-- Projects -->
 
     <section class= "projects">
-      <img class="clouder-home" src="assets/images/HomeClouder.svg" alt="Clouder Desktop & Mobile Render">
-      <h5> Research, Design & Branding </h5>
-      <h3> CLOUDER </h3>
-      <h4><i>Create. Share. Go.</i></h4><br><br>
-      <h4>Clouder is a cloud storage</br>
-         company that allows users to</br>
-         create content inside the app, </br>
-         collaborate and share on the go.</h4>
-         <a class="button" href="#Clouder">CASE STUDY</a>
+      <p class="project-role"> Research, Design & Branding </p>
+      <p class="project-title"> CLOUDER </p>
+      <p class="project-tag"><em>Create. Share. Go.</em></p>
+      <p class="project-info">Clouder is a cloud storage
+         company that allows users to
+         create content inside the app,
+         collaborate and share on the go.</p>
+         <a class="btn" href="#Clouder">CASE STUDY</a>
+         <img src="assets/images/clouder-mock.png" alt="Clouder Desktop & Mobile Render">
     </section>
 
     <section class= "projects">
-      <h5> Concept Redesign </h5>
-      <h3> BUSY BUS </h3>
-      <h4>A bus timetable app redesign for<br>
-        Chicago - naking it easy for users<br>
-        to find the closest bus, the next <br>
-        bus and what direction it's going.</h4>
-        <img class="busybus-home" src="assets/images/HomeBusyBus.svg" alt="BusyBus Mobile Render">
-        <a class="button" href="#BusyBus">SEE  MORE</a>
+      <p class="project-role"> Concept Redesign </p>
+      <p class="project-title"> BUSY BUS </p>
+      <p class="project-info">A bus timetable app redesign for
+        Chicago - naking it easy for users
+        to find the closest bus, the next
+        bus and what direction it's going.</p>
+          <a class="btn" href="#BusyBus">SEE MORE</a>
+        <img src="assets/images/busybus-mock.png" alt="BusyBus Mobile Render">
     </section>
 
 
     <section class= "projects">
-      <img class="blocjams-landing" src="assets/images/HomeBLOCJAMS.svg" alt="BlocJams Media Player Render">
-      <h5> From JavaScript to jQuery </h5>
-      <h3> BLOC blocjams </h3>
-      <h4>Recreating a media player using<br>
-      jQuery with all the features you'd<br>
-      hope to find. <br>
-      <a class="button" href="#blocjams">TAKE A LOOK</a>
+      <p class="project-role"> From JavaScript to jQuery </p>
+      <p class="project-title"> BLOC JAMS </p>
+      <p class="project-info">Recreating a media player using
+      jQuery with all the features you'd
+      hope to find.</p>
+      <a class="btn" href="#blocjams">TAKE A LOOK</a>
+      <img src="assets/images/blocjams-mock.png" alt="BlocJams Media Player Render">
     </section>
 
     <section class="pre-footer">
-      <a class="pre-footer-btn" href="#projects">MORE PROJECTS</a>
+      <a class="btn" href="#projects">MORE PROJECTS</a>
     </section>
 
 <!-- Footer-->
 
     <section class="footer">
-       <h5>Thanks for stopping by.<br>
+       <p class="footer-outro">Thanks for stopping by.<br>
          Want to chat about creating magic?<br>
          Maybe UX design or product development?<br><br>
-         Looking forward to hearing from you.</h5>
+         Looking forward to hearing from you.</p>
 
-        <img class="footerlogo" src="assets/images/landinglogo.svg" alt="Tullie Helene Logo">
+        <img class="footerlogo" src="assets/icons/logo-name-blk.png" alt="Tullie Helene Logo">
 
-        <img class="footer-links" href="mailto:tulliehelene@gmail.com?Subject=.:: TullieHelene.com ::. " target="_top" src="assets/icons/FOOTERemail.svg" alt="Email Tullie Helene">
-        <img class="footer-links" href="https://github.com/tulliehelene" src="assets/icons/FOOTERGithub.svg" alt="Github | Tullie Helene">
-        <img class="footer-links" href="https://www.instagram.com/tulliehelene/" src="assets/icons/FOOTERInstagram.svg" alt="Instagram | Tullie Helene">
-        <img class="footer-links" href="https://www.linkedin.com/in/tulliehelene/" src="assets/icons/FOOTERlinkedin.svg" alt="Linkedin | Tullie Helene">
+        <img class="footer-links" href="mailto:tulliehelene@gmail.com?Subject=.:: TullieHelene.com ::. " target="_top" src="assets/icons/email-blk.png" alt="Email Tullie Helene">
+        <img class="footer-links" href="https://github.com/tulliehelene" src="assets/icons/github-blk.png" alt="Github | Tullie Helene">
+        <img class="footer-links" href="https://www.instagram.com/tulliehelene/" src="assets/icons/insta-blk.png" alt="Instagram | Tullie Helene">
+        <img class="footer-links" href="https://www.linkedin.com/in/tulliehelene/" src="assets/icons/linked-blk.png" alt="Linkedin | Tullie Helene">
 
         <h6>Page Designed & Developed by Tullie Helene | © 2019</h6>
 

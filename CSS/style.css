@@ -1,3 +1,178 @@
-h1.lets {
-  font-family: font-family: 'Homemade Apple', cursive;
+html {
+  font-size: 10px;
 }
+
+/* basic styles */
+* {
+    box-sizing: border-box;
+}
+img {
+    /* responsive images: https://www.w3schools.com/howto/howto_css_image_responsive.asp */
+    width: 100%;
+    height: auto;
+}
+strong {font-weight: bold;}
+em {font-style: italic;}
+
+body {
+    /*
+      vh: https://css-tricks.com/fun-viewport-units/
+      this is your background for pages that don't have a bg image
+      linear-gradient: https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient
+    */
+    background: linear-gradient(#212228 0, #212228 100px, #fff 100vh);
+    color: #212228;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.5;
+}
+body#homepage {
+    background: linear-gradient(#212228 0, #212228 50%, #fff 100%);
+}
+
+#wrapper {
+    /* surrounds responsive content, keeps it centered on a large screen */
+    max-width: 1400px;
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+/* === HEADER NAV & HERO === */
+
+.home-hero{
+  background-image: linear-gradient(to right, rgba(34,34,41,1) 0%, rgba(34,34,41,0) 100%), url('../assets/images/hero-bkgrnd-dsktp.jpg');
+  background-repeat: no-repeat;
+  background-position: top right;
+  min-height: 100%; /* you might erase this line later = TULLIE note, i changed it from vh to a percentage */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3.0rem 4.3rem;
+}
+
+#logo {
+    width: 18.8rem
+}
+nav {
+    text-align: right;
+}
+
+
+nav ul li a {
+    color: #fff;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 2.7rem;
+    text-decoration: none;
+}
+
+a:hover {
+  color: #55EE80;
+}
+
+.hero {
+    padding: 1rem;
+    color: #fff;
+    font-size: 1.25rem;
+    /*https://stackoverflow.com/questions/2504071/how-do-i-combine-a-background-image-and-css3-gradient-on-the-same-element */
+}
+
+.hero-content {
+  padding: 0 4.3rem;
+}
+p.lets {
+  color: #55EE80;
+    font-family: "Homemade Apple", cursive;
+    font-size: 3.6rem;
+    padding: 20% 0;
+}
+
+p.hero-p {
+  font-size: 2.0rem;
+  padding:2.0rem 5.0rem 6.0rem 0;
+}
+
+.btn {
+    background: #55EE80;
+    border-radius: 0.4rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    color: #000000;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 600;
+    height: 100%;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+    min-width: 11rem;
+}
+
+.hero-dwn-btn {
+  display: flex;
+  height: 4.1rem;
+  width: 4.1rem;
+  margin: 30% auto;
+}
+
+/* === Projects section === */
+
+.projects {
+  color: #FFFFFF;
+  font-size: 2.4rem;
+  height: 100%;
+  text-align: center;
+  padding: 2.4rem 4.3rem;
+}
+
+p.project-role {
+  color: #55EE80;
+  font-size: 1.4rem;
+  margin-top: 7.0rem;
+
+}
+
+p.project-title {
+  font-size: 4.6rem;
+  font-weight: bold;
+}
+
+p.project-tag {
+  /* padding-bottom: 2.0rem; */
+}
+
+p.project-info {
+  margin-top: 11.0;
+}
+
+img {
+  padding-top:4.0rem;
+
+}
+
+.footer {
+
+}
+
+p.footer-outro {
+  color: #000000;
+  font-size: 1.4rem;
+}
+
+/* screens larger than mobile */
+@media screen and (min-width: 560px) {
+
+  nav ul li {
+       display: inline-block;
+       margin-left: 10px;
+   }
+   h1 {
+       font-size: 3rem;
+   }
+   .hero {
+       font-size: 1.5rem;
+   }
+}
+/*endmediaquery*/
