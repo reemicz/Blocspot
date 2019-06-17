@@ -20,13 +20,13 @@ body {
       this is your background for pages that don't have a bg image
       linear-gradient: https://developer.mozilla.org/en-US/docs/Web/CSS/linear-gradient
     */
-    background: linear-gradient(#212228 0, #212228 100px, #fff 100vh);
+    background: linear-gradient(#212228 0, #212228 100px, #fff 100%);
     color: #212228;
     font-family: "Montserrat", sans-serif;
     line-height: 1.5;
 }
 body#homepage {
-    background: linear-gradient(#212228 0, #212228 50%, #fff 100%);
+    background: linear-gradient(#212228 0, #212228 30%, #fff 100%);
 }
 
 #wrapper {
@@ -94,8 +94,9 @@ p.hero-p {
   padding:2.0rem 5.0rem 6.0rem 0;
 }
 
-.btn {
+.btn-grn {
     background: #55EE80;
+    border: 0.1rem solid black;
     border-radius: 0.4rem;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
     color: #000000;
@@ -103,11 +104,30 @@ p.hero-p {
     font-size: 1.5rem;
     font-weight: 600;
     height: 100%;
+    min-width: 11rem;
     padding: 1rem 2rem;
     text-align: center;
     text-decoration: none;
     transition: all .5s ease-in-out;
-    min-width: 11rem;
+
+}
+
+.btn-wht {
+    background: #FFFFFF;
+    border: 0.1rem solid black;
+    border-radius: 0.4rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    color: #000000;
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: 600;
+    height: 100%;
+    min-width: 17rem;
+    padding: 0.8rem 0rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+
 }
 
 .hero-dwn-btn {
@@ -120,6 +140,9 @@ p.hero-p {
 /* === Projects section === */
 
 .projects {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   color: #FFFFFF;
   font-size: 2.4rem;
   height: 100%;
@@ -130,7 +153,7 @@ p.hero-p {
 p.project-role {
   color: #55EE80;
   font-size: 1.4rem;
-  margin-top: 7.0rem;
+  margin-top: 5.0rem;
 
 }
 
@@ -140,25 +163,75 @@ p.project-title {
 }
 
 p.project-tag {
-  /* padding-bottom: 2.0rem; */
+  padding-bottom: 2.0rem;
 }
 
 p.project-info {
-  margin-top: 11.0;
+padding: 2.2rem 0rem 4.0rem 0rem;
 }
 
-img {
-  padding-top:4.0rem;
-
+.project-img {
+  margin-top: 5.0rem;
 }
 
+.pre-footer {
+  display: flex;
+  justify-content: center;
+  margin: 11.0rem 4.3rem;
+
+}
 .footer {
-
+  color: #000000;
+  display: flex-wrap;
+  margin: 3.0rem 4.3rem;
+  justify-content: center;
+  text-align: center;
 }
 
 p.footer-outro {
-  color: #000000;
   font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.footer-logo {
+  display: flex;
+  height:6.0rem;
+  margin: 4.0rem;
+  justify-content: center;
+  width: 19.0rem;
+}
+
+.footer-links {
+  align-content: center;
+  flex-flow: row-wrap;
+  display: flex;
+  width:100%;
+}
+
+.footer-links-mail {
+  display: flex;
+  justify-content: center;
+  padding: 1.0rem 1.0rem;
+}
+
+.footer-links-insta {
+  display: flex;
+  justify-content: center;
+  padding: 1.0rem 1.0rem;
+}
+.footer-links-git {
+  display: flex;
+  justify-content: center;
+  padding: 1.0rem 1.0rem;
+}
+.footer-links-linked {
+  display: flex;
+  justify-content: center;
+  padding: 1.0rem 1.0rem;
+}
+
+.footer-copy {
+  margin: 2.0rem 0;
 }
 
 /* screens larger than mobile */
@@ -175,4 +248,4 @@ p.footer-outro {
        font-size: 1.5rem;
    }
 }
-/*endmediaquery*/
+/*endmediaquery for desktop*/
