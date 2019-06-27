@@ -130,14 +130,22 @@ p.hero-p {
     display: inline-block;
     font-size: 1.5rem;
     font-weight: 600;
-    height: 100%;
     min-width: 17rem;
     padding: 1rem 2rem;
     text-align: center;
     text-decoration: none;
     transition: all .5s ease-in-out;
-
+    margin-bottom: 4rem;
 }
+
+.busy-btn {
+  margin-bottom: 4rem;
+}
+
+.bloc-btn {
+  margin-bottom: 4rem;
+}
+
 
 .hero-dwn-btn {
   display: flex;
@@ -173,8 +181,7 @@ p.hero-p {
 p.project-role {
   color: #00F372;
   font-size: 1.4rem;
-  margin-top: 5.0rem;
-
+  /* margin-top: 5.0rem; */
 }
 
 p.project-title {
@@ -195,20 +202,19 @@ padding: 2.2rem 0rem 4.0rem 0rem;
   max-height: 54.0rem;
   width:auto;
   max-width: 56.0rem;
-  margin-top: 5.0rem;
+  /* margin-top: 5.0rem; */
 }
 .img-container-right {
-  margin-top: 5.0rem;
+  /* margin-top: 5.0rem; */
 }
 
 /* === Footer Selections === */
 
 .dark-footer {
   background: linear-gradient(#FFFFFF 0, #534e55 45%, #212228 90%);
-  color: #FFF;
+  color: #FFFFFF;
   display: flex-wrap;
   justify-content: center;
-  max-width: 30.0rem;
   padding-top: 15.0rem;
   text-align: center;
 }
@@ -217,20 +223,21 @@ padding: 2.2rem 0rem 4.0rem 0rem;
   display: flex;
   justify-content: center;
   margin: 10rem 0;
-
 }
+
 .footer {
+  align-self: center;
   color: #000000;
-  margin: 3.0rem 4.3rem;
+  padding: 0 4.3rem;
   text-align: center;
 }
 
-.footer2 {
-  color: #FFF;
-  margin: 3.0rem 4.3rem;
+/* .footer {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
-}
+} */
 
 
 p.footer-outro {
@@ -239,11 +246,12 @@ p.footer-outro {
 }
 
 .footer-logo {
-  display: flex;
-  height:6.0rem;
-  margin: 4.0rem;
-  justify-content: center;
-  width: 19.0rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height:60%;
+  padding: 2.0rem 0;
+  width: 60%;
 }
 
 .footer-links {
@@ -289,7 +297,6 @@ font-style: "Montserrat", sans-serif;
 font-size: 1.4rem;
 font-size: normal;
 text-align: left;
-
 }
 
 .center {
@@ -301,34 +308,65 @@ text-align: left;
 .dark-nav {
   background-color: #212228;
 }
+
 .clouder-hero-bckgrnd {
   /* background: linear-gradient(#212228 0, #212228 20%, #fff 100%); */
 background: linear-gradient(#212228 0, #534e55 30%, #fff 100%);
 }
 
 .clouder-hero {
-  display flex;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  margin: 0 4.3rem;
+  margin: 0 4.3rem 5.0rem;;
   text-align: center;
 }
 
 .clouder-logo-hero {
-  display flex;
   height: 100%;
   justify-content: center;
-  margin-bottom: 3rem;
-  padding-top: 4.0rem;
+  padding: 4rem 0;
 }
 
-.clouder-img {
-  display flex;
+.clouder-img1 {
+  display: flex;
   justify-content: center;
   padding-bottom: 3.5rem;
 }
 
-.clouder-summary {
-  padding-top: 5.0rem;
+.clouder-img2 {
+  display: none;
+  justify-content: center;
+  padding-bottom: 3.5rem;
+  width: 114.4rem;
+}
+
+.btn-wht-cs {
+    background: #FFFFFF;
+    border: 0.1rem solid black;
+    border-radius: 0.4rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    color: #000000;
+    display: inline-block;
+    font-size: 1.4rem;
+    font-weight: 600;
+    height: 100%;
+    min-width: 17rem;
+    padding: 1rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+.cs-icons {
+  height: 4.9rem;
+  margin: auto;
+  /* text-align: center; */
+  width: 4.9rem;
+}
+
+.cs-summary {
+  padding: 0rem 4.3rem;
 }
 
 .p-center {
@@ -337,7 +375,7 @@ background: linear-gradient(#212228 0, #534e55 30%, #fff 100%);
 
 p.cs-cldr {
   font-weight: lighter;
-  margin: 1.0rem 4.3rem;
+  /* margin: 1.0rem 4.3rem; */
 }
 
  h1.cs-cldr {
@@ -353,8 +391,8 @@ h2.cs-cldr {
   font-weight: bold;
   line-height: 4.0rem;
   text-align: center;
-
-  margin: 3.0rem 4.0rem 2.0rem 4.0rem;
+  margin: auto;
+  padding: 2rem 3rem;
 }
 
 h3.cs-cldr {
@@ -362,6 +400,11 @@ h3.cs-cldr {
   font-weight: bold;
   line-height: 5.0rem;
   margin-top: 3.0rem;
+  text-align: center;
+}
+
+.process-phase {
+  padding-top: 3.0rem;
 }
 
 .pro-sol-box {
@@ -370,18 +413,23 @@ h3.cs-cldr {
   color: #FFFFFF;
   /* height: 20%; */
   margin: 3.0rem 1.3rem;
-  padding: 3.0rem 0 5.0rem 0;
+  padding: 3.0rem 4.3rem 20% 4.3rem;;
 }
 
-.cs-icons {
-  height: 4.9rem;
-  line-height: 4.9rem;
-  margin: auto;
-  width: 4.9rem;
+section.user-surveys {
+  padding: 2.0rem 4.3rem;
 }
 
-.discovery {
-  margin: 5.0rem 0;
+section.comp-analysis {
+  padding: 2.0rem 4.3rem;
+}
+
+section.user-personas {
+  padding: 0rem 4.3rem;
+}
+
+#user-per-frust ul li {
+  margin-top: 1.0rem;
 }
 
 .survey-results-box {
@@ -389,7 +437,7 @@ h3.cs-cldr {
   background-repeat: no-repeat;
   background-position:65% 50%;
   color: #FFFFFF;
-  margin: 5% 0;
+  margin: 0 0;
   min-height: 100%;
   padding: 2.0rem 1.3rem;
 }
@@ -515,7 +563,6 @@ p.about-intro {
        margin: 0 3.3rem;
        font-weight: normal;
        font-size: 3.4rem;
-
    }
    .home-hero{
      /* background-image: linear-gradient(to right, rgba(34,34,41,1) 0%, rgba(34,34,41,0) 100%), url('../assets/images/hero-bkgrnd-dsktp.png'); */
@@ -572,9 +619,24 @@ header {
       max-height: 6rem;;
       max-width: 24.7rem;
       padding: 1rem 2rem;
+  }
 
-      /* padding: 0.8rem 2rem; */
+  .busy-btn {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-top: 6rem;
+    max-height: 6rem;;
+    max-width: 24.7rem;
+    padding: 1rem 2rem;
+  }
 
+  .bloc-btn {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-top: 11rem;
+    max-height: 6rem;;
+    max-width: 24.7rem;
+    padding: 1rem 2rem;
   }
 
   .hero-dwn-btn {
@@ -606,9 +668,9 @@ header {
 
    .text-container-right {
     align-items: left;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
     margin-left: 2.4rem;
     height: 54.5rem;
     width: 55.7rem;
@@ -625,19 +687,20 @@ header {
     .text-container-left {
       min-width: 55.7rem;
       align-items: left;
-      display: flex;
+      /* display: flex; */
       flex-direction: column;
-
-      color: #FFFFFF;
       height: 54.5rem;
       width: 55.7rem;
       text-align: left;
     }
 
     .img-container-right {
-      height: 54.5rem;
-      width: 55.7rem;
+      height: auto;
+      max-height: 54.0rem;
+      width:auto;
+      max-width: 56.0rem;
       }
+
 
     p.project-role {
       color: #00F372;
@@ -669,11 +732,20 @@ header {
 
     }
     .footer {
+      /* display: block; */
       color: #000000;
       margin: 3.0rem 15rem;
-      max-width: 40rem;;
+      /* max-width: 40rem; */
     }
 
+    .footer-logo {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      height: 50%;
+      padding: 4.0rem 0;
+      width: 25%;
+    }
 
     p.footer-outro {
       font-size: 2.4rem;
@@ -681,39 +753,226 @@ header {
     }
 
     .footer-links {
-      align-content: center;
-      /* flex-flow: row-wrap; */
       display: flex;
+      justify-content: center;
       width:100%;
     }
 
     .footer-links-mail {
       display: flex;
+      height: 20%;
+      width: 12.2%;
       justify-content: center;
       padding: 1.0rem 1.0rem;
     }
 
     .footer-links-insta {
       display: flex;
+      height: 10%;
+      width:10%;
       justify-content: center;
       padding: 1.0rem 1.0rem;
     }
     .footer-links-git {
       display: flex;
+      height: 10%;
+      width:10%;
       justify-content: center;
       padding: 1.0rem 1.0rem;
     }
     .footer-links-linked {
       display: flex;
+      height: 10%;
+      width:10%;
       justify-content: center;
       padding: 1.0rem 1.0rem;
     }
 
     .footer-copy {
-      font-size: 1.0rem;
+      font-size: 1.43rem;
       padding: 2.0rem 0;
     }
+    /*endmediaquery for desktop-home*/
+
+    /* media query for cs-clouder starts*/
 
 
+    .clouder-hero-bckgrnd {
+      height: 50%;
+    }
+    .clouder-hero {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 0 15rem;
+    }
 
-    /*endmediaquery for desktop*/
+    .clouder-logo-hero {
+      height: 10.7rem;
+      margin: 15rem 0 3rem;
+      justify-content: center;
+      width: 55.7rem;
+    }
+
+    .clouder-img1 {
+      display: none;
+      justify-content: center;
+      padding-bottom: 3.5rem;
+    }
+
+    .clouder-img2 {
+      display: flex;
+      justify-content: center;
+      padding-bottom: 3.5rem;
+    }
+
+    .cs-summary {
+      margin: 0 21.5rem;
+      text-align: left;
+    }
+
+    .process-phase {
+      margin: 10.0rem 0rem;
+    }
+
+    h1.cs-cldr {
+      font-size: 4.8rem;
+    }
+
+    h3.cs-cldr {
+      font-size: 2.4rem;
+    }
+
+    p.cs-cldr {
+     font-size: 2.4rem;
+     /* padding-top: 3rem; */
+    }
+
+    div.p-center {
+      font-size: 2.4rem;
+      margin-bottom: 5.0rem;
+    }
+
+  #cs-clouder-roles {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    /* line-height: 167.2%; */
+    padding: 9.6rem 15rem;;
+  }
+
+  ul li {
+    font-size: 2.4rem;
+  }
+
+    .project-role {
+      display: flex;
+      flex-direction: column;
+    }
+
+    section.cs-problem-solution {
+      display: flex;
+      justify-content: center;
+    }
+
+    .pro-sol-box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      min-height: 96rem;
+      width: 55.8rem;
+      padding: 0 5.5rem;
+    }
+
+    h2.cs-cldr {
+      font-size: 3.6rem;
+    }
+
+    .cs-icons {
+      height: 6.4rem;
+      width: 6.4rem;
+    }
+
+    section.user-surveys {
+      margin: 0 21.5rem;
+    }
+
+.survey-results {
+  font-size: 2.8rem;
+}
+
+.survey-results-box {
+  min-height: 100%;
+  padding: 9.6rem 21.5rem;
+  margin: 5rem 0;
+}
+
+section.comp-analysis {
+  margin: 0 21.5rem;
+  padding-top: 5rem;
+}
+
+div.comp-ana {
+  margin-left: 40%;
+}
+
+section.sketching-wireframes {
+  margin: 0 21.5rem;
+}
+
+section.user-personas {
+  margin: 5.0rem 21.5rem;
+}
+
+.btn-wht-cs {
+    font-size: 2.4rem;
+}
+section.user-stories-flows {
+  margin: 0 21.5rem;
+}
+
+div.user-strs-flws {
+padding-top: 3rem;
+height: auto;
+}
+
+.user-img1 {
+  margin: auto;
+}
+
+section.sketching-wireframes {
+  padding-top: 5.0rem;
+}
+
+.wireframe-comp {
+  max-height:38.5rem;
+}
+
+div.wireframe-img {
+  display: flex;
+  flex-direction: column;
+}
+
+div.sktch-wire-img {
+  margin: 0 21.5rem;
+  height: 44.8rem;
+  width: 101.0rem;
+}
+
+.wire-img1 {
+  max-height: 31.7rem;
+  max-width: 49.4rem;
+}
+
+.wire-img2 {
+  max-height: 42.8rem;
+  max-width: 32.9rem;
+}
+/*menu in nv for header */
+/* nav ul li {
+  align-content: flex-end;
+     display: inline-block;
+     margin: 0 3.3rem;
+     font-weight: normal;
+     font-size: 3.4rem;
+ } */
