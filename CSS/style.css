@@ -215,7 +215,7 @@ padding: 2.2rem 0rem 4.0rem 0rem;
   color: #FFFFFF;
   display: flex-wrap;
   justify-content: center;
-  padding-top: 15.0rem;
+  /* padding-top: 15.0rem; */
   text-align: center;
 }
 
@@ -254,7 +254,7 @@ p.footer-outro {
   width: 60%;
 }
 
-.footer-links {
+/* .footer-links {
   align-content: center;
   flex-flow: row-wrap;
   display: flex;
@@ -279,6 +279,42 @@ p.footer-outro {
 }
 .footer-links-linked {
   display: flex;
+  justify-content: center;
+  padding: 1.0rem 1.0rem;
+} */
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  width:100%;
+}
+
+.footer-links-mail {
+  display: flex;
+  height: 20%;
+  width: 12.2%;
+  justify-content: center;
+  padding: 1.0rem 1.0rem;
+}
+
+.footer-links-insta {
+  display: flex;
+  height: 10%;
+  width:10%;
+  justify-content: center;
+  padding: 1.0rem 1.0rem;
+}
+.footer-links-git {
+  display: flex;
+  height: 10%;
+  width:10%;
+  justify-content: center;
+  padding: 1.0rem 1.0rem;
+}
+.footer-links-linked {
+  display: flex;
+  height: 10%;
+  width:10%;
   justify-content: center;
   padding: 1.0rem 1.0rem;
 }
@@ -420,18 +456,6 @@ section.user-surveys {
   padding: 2.0rem 4.3rem;
 }
 
-section.comp-analysis {
-  padding: 2.0rem 4.3rem;
-}
-
-section.user-personas {
-  padding: 0rem 4.3rem;
-}
-
-#user-per-frust ul li {
-  margin-top: 1.0rem;
-}
-
 .survey-results-box {
   background-image: url('../assets/pages/cs-clouder/laptop-fly.png');
   background-repeat: no-repeat;
@@ -442,12 +466,20 @@ section.user-personas {
   padding: 2.0rem 1.3rem;
 }
 
+section.comp-analysis {
+  padding: 2.0rem 4.3rem;
+}
+
 .comp-ana {
   padding-left: 18.0rem;
 }
 
 .comp-ana-img {
   padding: 2.0rem 0 ;
+}
+
+section.user-personas {
+  padding: 0rem 4.3rem;
 }
 
 .user-per-box {
@@ -464,23 +496,53 @@ section.user-personas {
   margin: 1.0rem 4.3rem;
 }
 
+#user-per-frust ul li {
+  margin-top: 1.0rem;
+}
+
+section.user-stories-flows {
+  padding: 0rem 4.3rem;
+}
+
 .user-strs-flws {
 display: flex;
 justify-content: center;
 flex-flow: wrap;
-padding: 0 1.3rem;
+padding: 2.0rem 1.3rem;
 }
 
 .user-img2 {
   padding: 2.0rem 6.0rem;
 }
 
+section.sketching-wireframes {
+  padding: 2.0rem 4.3rem;
+}
+
 .wireframe-comp {
-  object-fit: cover;
+  overflow-y: hidden;
   height: 21.0rem;
 }
 
 .sktch-wire-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2.0rem 0;
+}
+
+.wire-img1 {
+  padding-bottom: 1rem;
+}
+
+.wire-img2 {
+  margin: auto;
+ height:24.0rem;
+ width:18.4rem;
+ padding-bottom: 1rem;
+}
+
+section.lofi-mockups-prototyping {
   padding: 2.0rem 4.3rem;
 }
 
@@ -498,31 +560,62 @@ section.visuals {
   padding: 3.0rem 0;
 }
 
+section.branding-identity {
+  padding: 2.0rem 4.3rem;
+}
+
+img.clouder-final-it {
+padding: 3.0rem 0;
+}
+
+section.typography {
+  padding: 2.0rem 4.3rem;
+}
+
+section.color-scheme {
+  padding: 2.0rem 4.3rem;
+}
+
+section.image-iconography {
+  padding: 2.0rem 4.3rem;
+}
+
 .imgry-icons {
   display: column;
   justify-content:center;
-  margin: 1.0rem 4.3rem;
+  padding: 2.0rem 4.3rem;
 }
 
+section.style-guide {
+  padding: 2.0rem 4.3rem;
+}
 .style-guide-img {
-  margin: 1.0rem 4.3rem;
+}
+
+section.hifi-mockups {
+  padding: 2.0rem 4.3rem;
 }
 
 .cldr-srnshts {
-  display: flex;
+  /* display: flex;
   flex: 1;
   justify-content: center;
-  margin: 2.0rem 4.3rem;
-
+  margin: 2.0rem 4.3rem; */
+  padding-top: 4.0rem;
 }
 
-.breaks {
-  margin-bottom: 11.0rem;
+section.visual-landing {
+  padding: 2.0rem 4.3rem;
 }
 
-.final {
-  padding: 5.0rem 0;
+section.final-design {
+  padding: 2.0rem 4.3rem;
 }
+
+section.conclusion {
+  padding: 2.0rem 4.3rem;
+}
+
 
 /* === About page === */
 
