@@ -157,7 +157,7 @@ p.hero-p {
   /* padding-bottom: 10%; */
 }
 
-/* === Projects section === */
+/* ===  section === */
 
 .projects-135 {
   align-items: center;
@@ -168,7 +168,7 @@ p.hero-p {
   height: 100%;
   margin-top: 4rem;
   text-align: center;
-  padding: 2.4rem 4.3rem;
+  padding: 2.4rem 4.3rem 12rem 4.3rem;
 }
 
 .projects-246 {
@@ -179,7 +179,7 @@ p.hero-p {
   font-size: 2.4rem;
   height: 100%;
   text-align: center;
-  padding: 2.4rem 4.3rem;
+  padding: 2.4rem 4.3rem 12rem 4.3rem;
 }
 
 p.project-role {
@@ -214,19 +214,19 @@ padding: 2.2rem 0rem 4.0rem 0rem;
 
 /* === Footer Selections === */
 
-.dark-footer {
+/* .dark-footer {
   background: linear-gradient(#FFFFFF 0, #534e55 45%, #212228 90%);
   color: #FFFFFF;
   display: flex-wrap;
   justify-content: center;
-  /* padding-top: 15.0rem; */
+  /* padding-top: 15.0rem;
   text-align: center;
-}
+} */
 
 .pre-footer {
   display: flex;
   justify-content: center;
-  margin: 10rem 0;
+  margin-bottom: 5rem;
 }
 
 .footer {
@@ -236,12 +236,12 @@ padding: 2.2rem 0rem 4.0rem 0rem;
   text-align: center;
 }
 
-.footer-drk {
+/* .footer-drk {
   align-self: center;
   color: #FFFFFF;
   padding: 0 4.3rem;
   text-align: center;
-}
+} */
 
 .drk2wht-footer {
   background: linear-gradient(#212228 0, #534e55 10%, #fff 100%);
@@ -301,6 +301,7 @@ p.footer-outro {
 
 body#clouder {
 background-color: #FFFFFF;
+/* background: linear-gradient(#212228 200px, #534e55 1000px, #fff 1500px); */
 color: #000000;
 font-style: "Montserrat", sans-serif;
 font-size: 1.4rem;
@@ -321,6 +322,7 @@ text-align: left;
 .clouder-hero-bckgrnd {
   /* background: linear-gradient(#212228 0, #212228 20%, #fff 100%); */
 background: linear-gradient(#212228 0, #534e55 30%, #fff 100%);
+
 }
 
 .clouder-hero {
@@ -477,6 +479,17 @@ section.user-stories-flows {
   padding: 0rem 4.3rem;
 }
 
+
+.user-img1 {
+  max-height: 57.6rem;
+  max-width: 49.4rem;
+}
+
+.user-img2 {
+  max-width: 50rem;
+  padding: 2.0rem 6.0rem;
+}
+
 .user-strs-flws {
 display: flex;
 justify-content: center;
@@ -484,8 +497,12 @@ flex-flow: wrap;
 padding: 2.0rem 1.3rem;
 }
 
-.user-img2 {
-  padding: 2.0rem 6.0rem;
+.wire-img1 {
+  /* max-width: auto; */
+}
+
+.wire-img2 {
+  max-width: auto;
 }
 
 section.sketching-wireframes1 {
@@ -510,12 +527,13 @@ section.sketching-wireframes2 {
 
 .wire-img1 {
   padding-bottom: 1rem;
+  max-width: 40rem;
 }
 
 .wire-img2 {
   margin: auto;
- height:24.0rem;
- width:18.4rem;
+ height:34.0rem;
+ width:28.4rem;
  padding-bottom: 1rem;
 }
 
@@ -590,7 +608,7 @@ section.final-design {
 }
 
 section.conclusion {
-  padding: 2.0rem 4.3rem;
+  padding: 5.0rem 4.3rem 10rem 4.3rem;
 }
 
 
@@ -831,7 +849,7 @@ header {
   .busy-btn {
     font-size: 2.4rem;
     font-weight: 600;
-    margin-top: 6rem;
+    margin-top: 4rem;
     max-height: 6rem;;
     max-width: 24.7rem;
     padding: 1rem 2rem;
@@ -859,8 +877,7 @@ header {
     justify-content: space-between;
     color: #FFFFFF;
     font-size: 2.4rem;
-
-    padding: 10rem 15rem;
+    padding: 10rem 15rem 30rem 15rem;
   }
 /*--- index.html media-query desktop --- */
   .projects-246 {
@@ -870,7 +887,7 @@ header {
     color: #FFFFFF;
     font-size: 2.4rem;
     /* height: 100%; */
-    padding: 10rem 15rem;
+    padding: 10rem 15rem 30rem 15rem;
   }
 /*--- index.html media-query desktop --- */
    .text-container-right {
@@ -878,7 +895,7 @@ header {
     /* display: flex; */
     flex-direction: column;
     /* justify-content: flex-end; */
-    margin-left: 2.4rem;
+    margin-left: 9.4rem;
     height: 54.5rem;
     width: 55.7rem;
     text-align: left;
@@ -902,6 +919,7 @@ header {
 /*--- index.html media-query desktop --- */
     .img-container-right {
       height: auto;
+        margin-left: 5.7rem;
       max-height: 54.0rem;
       width:auto;
       max-width: 56.0rem;
@@ -960,6 +978,7 @@ header {
     .footer-links {
       display: flex;
       justify-content: center;
+      max-width: 300rem;
       width:100%;
     }
 /*--- index.html media-query desktop --- */
@@ -1000,9 +1019,13 @@ header {
       padding: 2.0rem 0;
     }
 
+#clouder {
+  background: linear-gradient(#212228 200px, #534e55 700px, #fff 1300px);
+}
+
 /*--- clouder.html media-query desktop --- */
  .clouder-hero-bckgrnd {
-      height: 50%;
+background: none;
     }
     /*--- clouder.html media-query desktop --- */
     .clouder-hero {
@@ -1193,9 +1216,11 @@ div.sktch-wire-img {
 }
 /*--- clouder.html media-query desktop --- */
 .wire-img2 {
-  min-height: 42.8rem;
-  min-width: 32.9rem;
+  /* min-height: 42.8rem;
+  min-width: 32.9rem; */
 }
+
+
 
 /*--- clouder.html media-query desktop --- */
  section.lofi-mockups-prototyping {
@@ -1291,6 +1316,17 @@ padding: 2.0rem 21.5rem;
    margin: 2.0rem 4.3rem; */
    padding: 4.0rem 20rem;
  }
+
+.landing-sidebyside {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 6rem 0;
+}
+.cldr-srnshts-land {
+  /* width: 40%; */
+}
+
 
  .cldr-srnshts-menu {
    padding: 4.0rem 30rem;
@@ -1529,3 +1565,21 @@ padding: 2.0rem 21.5rem;
     min-width: 32rem;
     margin: 2rem auto;
   }
+
+  /* .dark-footer {
+    background: linear-gradient(#FFFFFF 0, #534e55 45%, #212228 90%);
+    color: #FFFFFF;
+    display: flex-wrap;
+    justify-content: center;
+    /* padding-top: 15.0rem; */
+    /* text-align: center;
+  } */
+
+  /* .footer-drk {
+    align-self: center;
+    color: #FFFFFF;
+    padding: 0 21.5rem;
+    text-align: center;
+  } */
+
+}
