@@ -783,7 +783,7 @@ img.about-img8 {
        font-size: 3.4rem;
         }
 
-
+  /*--- index.html media-query ipad --- */
         .home-hero{
           /* background-image: linear-gradient(to right, rgba(34,34,41,1) 0%, rgba(34,34,41,0) 100%), url('../assets/images/hero-bkgrnd-dsktp.png'); */
           background-image: linear-gradient(90deg, #22222A 50%, rgba(34, 34, 42, 0) 50%) url('../assets/images/hero-bkgrnd-dsktp.png');
