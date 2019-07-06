@@ -27,8 +27,17 @@ body {
     line-height: 1.5;
 }
 body#homepage {
-    /* background: linear-gradient(#212228 0, #212228 30%, #fff 100%); */
+    background: #FFFFFF;
+    /* background: linear-gradient(#212228 0, #212228 30%, #534e55 80%, #fff 100%); */
+}
+
+#wrapperhome {
+    /* surrounds responsive content, keeps it centered on a large screen */
     background: linear-gradient(#212228 0, #212228 30%, #534e55 80%, #fff 100%);
+    max-width: 144.0rem;
+    margin: 0 auto;
+    min-height: 100%;
+    /* border: 2px solid red; */
 }
 
 #wrapper {
