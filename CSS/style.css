@@ -655,7 +655,6 @@ p.about-intro {
     height: 4.1rem;
     width: 4.1rem;
     margin: 20% auto;
-
 }
 
 section.about-beginning {
@@ -771,12 +770,357 @@ img.about-img8 {
    margin: 2rem auto;
  }
 
+ /*******************************/
+ /* SCREENS BIGGER THAN 76.8rem */
+ /*******************************/
+@media screen and (min-width: 768px) {
+
+  nav ul li {
+    align-content: flex-end;
+       display: inline-block;
+       margin: 0 1.3rem;
+       font-weight: normal;
+       font-size: 3.4rem;
+        }
 
 
+        .home-hero{
+          /* background-image: linear-gradient(to right, rgba(34,34,41,1) 0%, rgba(34,34,41,0) 100%), url('../assets/images/hero-bkgrnd-dsktp.png'); */
+          background-image: linear-gradient(90deg, #22222A 50%, rgba(34, 34, 42, 0) 50%) url('../assets/images/hero-bkgrnd-dsktp.png');
+          background-repeat: no-repeat;
+          background-position: 100% 0;
+          image-resolution: pixelated;
+       }
+
+  /*--- index.html media-query ipad --- */
+   .hero-content {
+     padding: 0 7.2rem;
+   }
+
+   p.lets {
+       font-size: 4.6rem;
+       margin-top: 20%;
+      }
+  /*--- index.html media-query ipad --- */
+  p.hero-p {
+    font-size: 2.6rem;
+    letter-spacing: .1rem;
+  }
+  /*--- index.html media-query ipad --- */
+   .hero {
+       font-size: 1.5rem;
+   }
+  /*--- index.html media-query ipad --- */
+  header {
+    padding: 4.0rem 7.2rem;
+  }
+
+  /* === Footer Selections - ipad === */
+/*--- index.html media-query ipad --- */
+  .pre-footer {
+    /* display: flex; */
+    /* justify-content: center; */
+    margin: 9rem auto;
+  }
+ /*--- index.html media-query ipad --- */
+  .footer {
+    /* display: block; */
+    color: #000000;
+    margin: 3.0rem 7.2rem;
+    /* max-width: 40rem; */
+  }
+/*--- index.html media-query ipad --- */
+  .footer-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 50%;
+    padding: 4.0rem 0;
+    width: 37.5%;
+  }
+/*--- index.html media-query ipad --- */
+  p.footer-outro {
+    font-size: 1.8rem;
+    font-weight: 500;
+  }
+/*--- index.html media-query ipad --- */
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    max-width: 300rem;
+    width:100%;
+  }
+/*--- index.html media-query ipad --- */
+  .footer-links-mail {
+    display: flex;
+    height: 33%;
+    width: 17%;
+    justify-content: center;
+    padding: 1.0rem 1.0rem;
+  }
+/*--- index.html media-query ipad --- */
+  .footer-links-insta {
+    display: flex;
+    height: 15%;
+    width:15%;
+    justify-content: center;
+    padding: 1.0rem 1.0rem;
+  }
+  /*--- index.html media-query ipad --- */
+  .footer-links-git {
+    display: flex;
+    height: 15%;
+    width:15%;
+    justify-content: center;
+    padding: 1.0rem 1.0rem;
+  }
+  /*--- index.html media-query ipad --- */
+  .footer-links-linked {
+    display: flex;
+    height: 15%;
+    width:15%;
+    justify-content: center;
+    padding: 1.0rem 1.0rem;
+  }
+/*--- index.html media-query ipad --- */
+  .footer-copy {
+    font-size: 1.43rem;
+    padding: 2.0rem 0;
+  }
+
+  /*--- about.html media-query ipad --- */
+   body#about {
+       /* background: linear-gradient(#212228 0, #212228 30%, #fff 100%); */
+       background: #212228;
+       color: #FFFFFF;
+   }
+
+  /*--- about.html media-query ipad --- */
+   section.about-hero {
+     /* background-image: linear-gradient(to right, rgba(34,34,41,1) 30%, rgba(34,34,41,0) 100%), url('../assets/pages/about/about-face.png');
+     background-repeat: no-repeat; */
+     /* background-position: 250% 20%; */
+     /* height: 100%;
+     min-height: 90vh; /* how can I not use 'vh' and still get the whole picture*/
+     background-image: linear-gradient(to right, rgba(34,34,41,1) 30%, rgba(34,34,41,0) 100%), url('../assets/pages/about/about-face2.png');
+     background-repeat: no-repeat;
+     background-position: 50% 70%;
+     min-height: 80vh; /* how can I not use 'vh' and still get the whole picture*/
+     /* background-size: 80rem 122rem; */
+     /* max-height: 92.76rem; */
+   }
+
+  /*--- about.html media-query ipad --- */
+   .about-content {
+     padding: 0 7.2rem;
+   }
+
+  /*--- about.html media-query ipad --- */
+   p.hi {
+     color: #55EE80;
+     /* color: #00F372; */
+     font-family: "Homemade Apple", cursive;
+     font-size: 5.2rem;
+     padding: 12rem 0 5rem 0;
+   }
+
+  /*--- about.html media-query ipad --- */
+   p.about-intro {
+     font-size: 1.8rem;
+     max-width: 55rem;
+   }
+
+/*--- about.html media-query ipad --- */
+   .grn-wrning {
+     height:6.1rem;
+     width: 6.1rem;
+   }
+
+  /*--- about.html media-query ipad --- */
+   .about-dwn-btn {
+       align-self: center;
+       display: flex;
+       height: 6rem;
+       width: 6rem;
+       margin: 10% auto;
+   }
+
+  /*--- about.html media-query ipad --- */
+   section.about-beginning {
+     display: flex;
+     flex-direction: row-reverse;
+     padding: 5rem 7.2rem;
+     margin-top: 9.3rem;
+   }
+
+  /*--- about.html media-query ipad --- */
+   img.about-img1 {
+     height: auto;
+     object-fit: cover;
+     object-position: 50% 0%;
+     width: 32rem;
+   }
+  /*--- about.html media-query ipad --- */
+   img.about-img2 {
+     display: flex;
+     height: auto;
+     object-fit: cover;
+     object-position: 0% 0%;
+     width: 32rem;
+   }
+
+  /*--- about.html media-query ipad --- */
+   section.about-sound {
+     display: flex;
+     flex-direction: row;
+      margin-top: 9rem;
+     padding: 5rem 7.2rem;
+
+   }
+
+   /*--- about.html media-query ipad --- */
+    img.about-img3 {
+      height: 58rem;
+      object-fit: cover;
+      padding-right: 7.0rem;
+      width: 34rem;
+
+    }
+
+  /*--- about.html media-query ipad --- */
+   section.about-reins {
+     display: flex;
+     flex-direction: row-reverse;
+     padding: 2rem 7.2rem;
+     margin-top: 5.3rem;
+   }
+
+   /*--- about.html media-query ipad --- */
+    img.about-img4 {
+      display: block;
+      height: auto;
+      object-fit: cover;
+      object-position: 50% 0%;
+      width: 29.0rem;
+    }
+   /*--- about.html media-query ipad --- */
+    img.about-img5 {
+      display: block;
+      height: 29.0rem;
+      object-fit: cover;
+      object-position: 50% 0%;
+      width: 29.0rem;
+    }
+/*--- about.html media-query ipad --- */
+    img.about-img6 {
+      display: block;
+      height: auto;
+      object-fit: cover;
+      object-position: 50% 0%;
+      width: 29.0rem;
+    }
+
+/*--- about.html media-query ipad --- */
+   section.about-fire {
+     display: flex;
+     flex-direction: row;
+     margin-top: 9rem;
+     padding: 2rem 7.2rem;
+   }
+
+  /*--- about.html media-query ipad --- */
+    img.about-img7 {
+      height: 95%;
+      object-fit: cover;
+      object-position: 20% 0%;
+      width: 26.0rem;
+    }
+
+
+  /*--- about.html media-query ipad --- */
+   section.about-here-now {
+     display: flex;
+     flex-direction: row-reverse;
+     padding: 2rem 7.2rem;
+     margin-top: 9.3rem;
+   }
+
+  /*--- about.html media-query ipad --- */
+    img.about-img8 {
+      height: 28.0rem;
+      object-fit: cover;
+      margin-right: 3rem;
+      object-position: 50% 0%;
+      margin-bottom: 9rem;
+      width: 20.8rem;
+    }
+
+/*--- about.html media-query ipad --- */
+   div.about-textbox-right {
+     margin-left: 2.6rem;
+     max-width: 72.3rem;
+   }
+
+  /*--- about.html media-query ipad --- */
+    div.about-imgbox-left {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-right: auto;
+      padding-top: 9.3rem;
+      width: 32.0rem;
+    }
+
+/*--- about.html media-query ipad --- */
+    div.about-textbox-left {
+      max-width: 77.0rem;
+    }
+
+/*--- about.html media-query ipad --- */
+    div.about-imgbox-right {
+      display: flex;
+      flex-direction: column;
+      margin-left: 3.4rem;
+      padding-top: 9.3rem;
+      width: 28.0rem;
+    }
+  /*--- about.html media-query ipad --- */
+   p.about-subhead {
+     /* color: #00F372; */
+     color: #55EE80;
+    font-family: "Homemade Apple", cursive;
+    font-size: 2.8rem;
+    height: 5.3rem;
+    text-align: left;
+   }
+
+  /*--- about.html media-query ipad --- */
+   p.about-story {
+     font-size: 1.6rem;
+     padding-top: 2.4rem;
+   }
+
+  /*--- about.html media-query ipad --- */
+   .about-pre-footer {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       margin: 5.0rem 0rem 10.0rem 0rem;
+   }
+
+/*--- about.html media-query ipad --- */
+    .pre-foot-about {
+      min-width:28rem;
+      margin: 2rem auto;
+    }
+
+ }
+
 /*******************************/
-/* SCREENS BIGGER THAN 76.8rem */
+/* SCREENS BIGGER THAN 102rem */
 /*******************************/
-@media screen and (min-width: 76.8rem) {
+/* @media screen and (min-width: 76.8rem) { */
+@media screen and (min-width: 1020px) {
 
 
   nav ul li {
@@ -786,6 +1130,7 @@ img.about-img8 {
        font-weight: normal;
        font-size: 3.4rem;
    }
+
    /*--- index.html media-query desktop --- */
    .home-hero{
      /* background-image: linear-gradient(to right, rgba(34,34,41,1) 0%, rgba(34,34,41,0) 100%), url('../assets/images/hero-bkgrnd-dsktp.png'); */
@@ -794,11 +1139,7 @@ img.about-img8 {
      background-position: 100% 0;
      image-resolution: pixelated;
   }
-/*--- index.html media-query desktop --- */
-   .home-hero {
-     background-position: top;
-     min-height: 100%;
-   }
+
 /*--- index.html media-query desktop --- */
    .hero-content {
      padding: 0 15rem;
@@ -1219,8 +1560,6 @@ div.sktch-wire-img {
   /* min-height: 42.8rem;
   min-width: 32.9rem; */
 }
-
-
 
 /*--- clouder.html media-query desktop --- */
  section.lofi-mockups-prototyping {
