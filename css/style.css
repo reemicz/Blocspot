@@ -256,7 +256,7 @@ padding: 2.2rem 0rem 4.0rem 0rem;
 } */
 
 .drk2wht-footer {
-  background: linear-gradient(#212228 0, #534e55 10%, #fff 100%);
+  background: linear-gradient(#212228 30%, #534e55 50%, #fff 100%);
 }
 
 
@@ -670,22 +670,27 @@ p.about-intro {
 }
 
 section.about-beginning {
+  background: #212228;
   padding: 0 4.3rem;
 }
 
 section.about-sound {
+  background: #212228;
   padding: 4.3rem 4.3rem;
 }
 
 section.about-reins {
+  background: #212228;
   padding: 4.3rem 4.3rem;
 }
 
 section.about-fire {
+  background: #212228;
 padding: 4.3rem 4.3rem;
 }
 
 section.about-here-now {
+  /* background: #212228; */
   padding: 4.3rem 4.3rem;
 }
 
@@ -962,7 +967,7 @@ img.about-img8 {
      display: flex;
      flex-direction: row-reverse;
      padding: 5rem 7.2rem;
-     margin-top: 9.3rem;
+     /* margin-top: 9.3rem; */
    }
 
   /*--- about.html media-query ipad --- */
@@ -985,7 +990,7 @@ img.about-img8 {
    section.about-sound {
      display: flex;
      flex-direction: row;
-      margin-top: 9rem;
+      /* margin-top: 9rem; */
      padding: 5rem 7.2rem;
 
    }
@@ -1004,7 +1009,7 @@ img.about-img8 {
      display: flex;
      flex-direction: row-reverse;
      padding: 2rem 7.2rem;
-     margin-top: 5.3rem;
+     /* margin-top: 5.3rem; */
    }
 
    /*--- about.html media-query ipad --- */
@@ -1036,7 +1041,7 @@ img.about-img8 {
    section.about-fire {
      display: flex;
      flex-direction: row;
-     margin-top: 9rem;
+     /* margin-top: 9rem; */
      padding: 2rem 7.2rem;
    }
 
@@ -1054,7 +1059,7 @@ img.about-img8 {
      display: flex;
      flex-direction: row-reverse;
      padding: 2rem 7.2rem;
-     margin-top: 9.3rem;
+     /* margin-top: 9.3rem; */
    }
 
   /*--- about.html media-query ipad --- */
@@ -1714,7 +1719,8 @@ padding: 2.0rem 21.5rem;
 /*--- about.html media-query desktop --- */
  body#about {
      /* background: linear-gradient(#212228 0, #212228 30%, #fff 100%); */
-     background: #212228;
+     /* background: #212228; */
+     background: #FFFFFF;
      color: #FFFFFF;
  }
 
@@ -1773,7 +1779,7 @@ padding: 2.0rem 21.5rem;
    display: flex;
    flex-direction: row-reverse;
    padding: 5rem 15rem;
-   margin-top: 9.3rem;
+   /* margin-top: 9.3rem; */
  }
 
 /*--- about.html media-query desktop --- */
@@ -1804,7 +1810,7 @@ padding: 2.0rem 21.5rem;
   img.about-img3 {
     height: 70rem;
     object-fit: cover;
-    width: 38.0rem;
+    width: 44.0rem;
   }
 
 /*--- about.html media-query desktop --- */
@@ -1812,7 +1818,7 @@ padding: 2.0rem 21.5rem;
    display: flex;
    flex-direction: row-reverse;
    padding: 5rem 15rem;
-   margin-top: 9.3rem;
+   /* margin-top: 9.3rem; */
  }
 
  /*--- about.html media-query desktop --- */
@@ -1861,7 +1867,7 @@ padding: 2.0rem 21.5rem;
    display: flex;
    flex-direction: row-reverse;
    padding: 5rem 15rem;
-   margin-top: 9.3rem;
+   /* margin-top: 9.3rem; */
  }
 
  /*--- about.html media-query desktop --- */
