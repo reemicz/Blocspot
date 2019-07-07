@@ -361,7 +361,7 @@ background: linear-gradient(#212228 0, #534e55 30%, #fff 100%);
 }
 
 .clouder-img1 {
-  display: flex;
+  display: inline-block;
   justify-content: center;
   max-width:286px;
   max-height: 290px;
