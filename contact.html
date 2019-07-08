@@ -1,40 +1,65 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title> Contact form</title>
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="contact.css">
 
-  </head>
-  <body>
-    <h2>Responsive Contact Section</h2>
-  <p>Resize the browser window to see the effect.</p>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <div class="container">
-    <div class="row">
-      <div class="column">
-        <form class="contact-form" action="contactform.php" method="post">
-          <!-- <label for="name">Name</label> -->
-          <input type="text" name="name" placeholder="Your name">
+        <title>Tullie Helene | UX Designer </title>
+
+        <!--CSS-->
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <!--FONTS-->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Homemade+Apple&display=swap" >
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,700,900&display=swap">
+
+        <!--Favicon -->
+        <link rel="icon" type="image/png" href="assets/images/logo-favicon-wht.svg">
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-143411528-1"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-143411528-1');
+        </script>
+</head>
+
+<body id="contact">
+    <!-- wraps responsive content -->
+    <div id="wrapper">
+        <header class="dark-nav">
+            <div id="logo">
+                <img src="assets/icons/logo-nav-wht.svg" alt="Tullie Helene logo with T-UH-L-ee pronunciation guide">
+            </div>
+            <nav>
+                <ul>
+                  <li><a class="link" href="index.html">Home</a></li>
+                  <li><a class="link" href="index.html#section-next">Projects</a></li>
+                  <li><a class="link" href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <body>
+            <section class="contact-form-section">
+              <!-- <div class="drk2wht-footer"> -->
+                <p class="contact-intro"> Contact me </p>
 
 
-          <!-- <label for="subject">Email</label> -->
-          <input type="text" name="email" placeholder="Your e-mail">
 
+                <form class="contact" method="POST" action="https://formspree.io/tulliehelene@gmail.com">
+                  <input class="your-email" type="email" name="email" placeholder="Your e-mail">
+                  <textarea class="your-message" name="message" placeholder="Your message"></textarea>
+                  <button class="btn-grn" type="submit">Send</button>
+                </form>
 
-          <!-- <label for="subject">Subject</label> -->
-          <input type="text" name="subject" placeholder="Subject">
+            </section>
 
-          <!-- <label for="message">Message</label> -->
-          <textarea name="message" placeholder="Write something..." style="height:170px"></textarea>
-          <!-- <input type="submit" value="Submit"> -->
-          <button type="submit" name="submit"> Send Mail </button>
-
-        </form>
-      </div>
-    </div>
-  </div>
-
-  </body>
-  </html>
+</body>
+</html>
