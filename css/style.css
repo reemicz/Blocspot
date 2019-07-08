@@ -957,6 +957,51 @@ button {
     padding: 2.0rem 0;
   }
 
+
+  /*--- clouder.html media-query ipad --- */
+  section.sketching-wireframes2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 9.0rem;
+  }
+
+  /*--- clouder.html media-query ipad --- */
+  div.wireframe-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  /*--- clouder.html media-query ipad --- */
+  div.sktch-wire-img {
+    display: flex;
+    flex-direction: row;
+    /* margin: 0 21.5rem; */
+    /* height: 44.8rem;
+    width: 101.0rem; */
+    margin-bottom: 10rem;
+  }
+  /*--- clouder.html media-query ipad --- */
+  .wire-img1 {
+    margin: auto;
+    /* max-height: 31.7rem;
+    max-width: 49.4rem; */
+  }
+  /*--- clouder.html media-query ipad --- */
+  .wire-img2 {
+    height: 32rem;
+    width: auto;
+    /* min-height: 42.8rem;
+    min-width: 32.9rem; */
+  }
+
+.clouder-img2{
+  max-width: 100%;
+}
+
+.img-container-right {
+  max-width: 80%;
+}
+
   /*--- about.html media-query ipad --- */
   section.about-hero {
     /* background-image: linear-gradient(to right, rgba(34,34,41,1) 30%, rgba(34,34,41,0) 100%), url('../assets/pages/about/about-face.png');
@@ -1176,19 +1221,48 @@ button {
     margin: 2rem auto;
   }
 
-}
+  .imgry-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2.0rem 7.2rem;
+  }
 
+  .style-guide-img {
+    display: flex;
+
+  }
+
+  /*--- clouder.html media-query ipad --- */
+  .cldr-srnshts {
+    /* display: flex;
+    flex: 1;
+    justify-content: center;
+    margin: 2.0rem 4.3rem; */
+    padding: 4.0rem 20rem;
+  }
+
+  .landing-sidebyside {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 6rem 0;
+  }
+
+  .cldr-srnshts-menu {
+    padding: 4.0rem 30rem;
+  }
 /*******************************/
 /* SCREENS BIGGER THAN 102rem */
 /*******************************/
 /* @media screen and (min-width: 76.8rem) { */
-@media screen and (min-width: 1020px) {
+@media screen and (min-width: 1044px) {
 
 
   nav ul li {
     align-content: flex-end;
     display: inline-block;
-    margin: 0 3.3rem;
+    margin-left: 3.3rem;
     font-weight: normal;
     font-size: 3.4rem;
   }
@@ -1545,9 +1619,11 @@ button {
     padding-top: 5rem;
   }
   /*--- clouder.html media-query desktop --- */
-  div.comp-ana {
+  /* div.comp-ana {
     margin-left: 40%;
-  }
+  } */
+
+
   /*--- clouder.html media-query desktop --- */
   section.sketching-wireframes1 {
     margin: 0 21.5rem;
