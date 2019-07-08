@@ -640,8 +640,8 @@ section.about-hero {
   background-image: linear-gradient(to right, rgba(34,34,41,1) 30%, rgba(34,34,41,0) 100%), url('../assets/pages/about/about-face.png');
   background-repeat: no-repeat;
   background-position: 250% 20%;
-  height: 100%;
-  min-height: 87vh; /* how can I not use 'vh' and still get the whole picture*/
+  height: 100vh;
+  background-size: contain;
 }
 
 .about-content {
@@ -653,7 +653,7 @@ p.hi {
   /* color: #00F372; */
   font-family: "Homemade Apple", cursive;
   font-size: 3.4rem;
-  padding: 10rem 0 5rem 0;
+  padding: 5rem 0;
 }
 
 p.about-intro {
@@ -675,7 +675,7 @@ p.about-intro {
 
 section.about-beginning {
   background: #212228;
-  padding: 0 4.3rem;
+  padding: 3rem 4.3rem;
 }
 
 section.about-sound {
