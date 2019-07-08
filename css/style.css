@@ -1429,13 +1429,9 @@ button {
     padding: 2.0rem 0;
   }
 
-  #clouder {
-    background: linear-gradient(#212228 200px, #534e55 700px, #fff 1300px);
-  }
-
   /*--- clouder.html media-query desktop --- */
   .clouder-hero-bckgrnd {
-    background: none;
+    background: linear-gradient(#212228 200px, #534e55 700px, #fff 1300px);
   }
   /*--- clouder.html media-query desktop --- */
   .clouder-hero {
@@ -1447,10 +1443,7 @@ button {
   }
   /*--- clouder.html media-query desktop --- */
   .clouder-logo-hero {
-    margin:  15rem;
-    height: 10.5rem;
-    /* justify-content: center; */
-    /* width: 55.7rem; */
+    margin-top:  15rem;
   }
   /*--- clouder.html media-query desktop --- */
   .clouder-img1 {
