@@ -1,5 +1,6 @@
 html {
   font-size: 10px;
+   scroll-behavior: smooth;
 }
 
 /* basic styles */
@@ -27,13 +28,22 @@ body {
   line-height: 1.5;
 }
 body#homepage {
-  background: #FFFFFF;
+  background: #212228;
   /* background: linear-gradient(#212228 0, #212228 30%, #534e55 80%, #fff 100%); */
 }
 
 #wrapperhome {
   /* surrounds responsive content, keeps it centered on a large screen */
   background: linear-gradient(#212228 0, #212228 30%, #534e55 80%, #fff 100%);
+  max-width: 144.0rem;
+  margin: 0 auto;
+  min-height: 100%;
+  /* border: 2px solid red; */
+}
+
+#wrapperclouder {
+  /* surrounds responsive content, keeps it centered on a large screen */
+  background: #FFFFFF;
   max-width: 144.0rem;
   margin: 0 auto;
   min-height: 100%;
@@ -130,14 +140,14 @@ p.hero-p {
   padding: 1rem 2rem;
   text-align: center;
   text-decoration: none;
-  transition: all .5s ease-in-out;
+
 }
 
 .btn-wht {
   background: #FFFFFF;
-  border: 0.1rem solid black;
+  /* border: 0.1rem solid black; */
   border-radius: 0.4rem;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  /* box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25); */
   color: #000000;
   display: inline-block;
   font-size: 1.5rem;
@@ -146,8 +156,11 @@ p.hero-p {
   padding: 1rem 2rem;
   text-align: center;
   text-decoration: none;
-  transition: all .5s ease-in-out;
   margin-bottom: 4rem;
+}
+.btn-wht:hover{
+  background: #55EE80;
+  color: #212228;
 }
 
 .busy-btn {
@@ -159,7 +172,7 @@ p.hero-p {
 }
 
 
-.hero-dwn-btn {
+.direction-btn {
   /* align-self: center; */
   display: flex;
   height: 4.1rem;
@@ -269,8 +282,6 @@ text-align: center;
   background: linear-gradient(#212228 30%, #534e55 50%, #fff 100%);
 }
 
-
-
 p.footer-outro {
   font-size: 1.4rem;
   font-weight: 500;
@@ -286,32 +297,24 @@ p.footer-outro {
 }
 
 .footer-links {
-  align-content: center;
-  flex-flow: row-wrap;
+  /* align-content: center;
+  flex-flow: row-wrap; */
   display: flex;
   width:100%;
 }
 
-.footer-links-mail {
+.footer-link-1{
   display: flex;
   justify-content: center;
   padding: 1.0rem 1.0rem;
+  width: 85%
 }
 
-.footer-links-insta {
+.footer-link-2 {
   display: flex;
   justify-content: center;
   padding: 1.0rem 1.0rem;
-}
-.footer-links-git {
-  display: flex;
-  justify-content: center;
-  padding: 1.0rem 1.0rem;
-}
-.footer-links-linked {
-  display: flex;
-  justify-content: center;
-  padding: 1.0rem 1.0rem;
+  width: 70%;
 }
 
 .footer-copy {
@@ -322,7 +325,7 @@ p.footer-outro {
 /* === Clouder ===*/
 
 body#clouder {
-  background-color: #FFFFFF;
+  background-color: #212228;
   color: #000000;
   font-style: "Montserrat", sans-serif;
   font-size: 1.4rem;
@@ -374,22 +377,27 @@ body#clouder {
   padding-bottom: 3.5rem;
   width: 114.4rem;
 }
-
 .btn-wht-cs {
-  background: #FFFFFF;
-  border: 0.1rem solid black;
+  background: #534e55;
   border-radius: 0.4rem;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
-  color: #000000;
+  color: #FFFFFF;
   display: inline-block;
   font-size: 1.4rem;
   font-weight: 600;
   height: 100%;
-  min-width: 17rem;
-  padding: 1rem 2rem;
+  min-width: 24rem;
+  padding: 1rem 3rem;
   text-align: center;
   text-decoration: none;
-  transition: all .5s ease-in-out;
+}
+.btn-wht-cs:hover {
+    background: #212228;
+    color: #FFFFFF;
+}
+
+.btn-spacing {
+  /* border: 1px solid red; */
+  margin: 4rem auto;
 }
 
 .cs-icons {
@@ -409,6 +417,7 @@ body#clouder {
 
 p.cs-cldr {
   font-weight: lighter;
+    line-height: 2.5rem;
   /* margin: 1.0rem 4.3rem; */
 }
 
@@ -468,9 +477,38 @@ section.comp-analysis {
   padding: 2.0rem 4.3rem;
 }
 
-.comp-ana {
-  padding-left: 18.0rem;
+.comp-links {
+  /* align-content: center;
+  flex-flow: row-wrap; */
+  display: flex;
+  width:100%;
 }
+
+.comp-link-2 {
+  display: flex;
+  justify-content: center;
+  padding: 1.0rem 1.0rem;
+  width: 70%;
+}
+
+.logobox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 30rem;
+}
+
+.persona-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 2.3rem
+}
+
+.user-person {
+  padding-top: 4rem;
+}
+
 
 .comp-ana-img {
   padding: 2.0rem 0 ;
@@ -657,6 +695,7 @@ p.hi {
 
 p.about-intro {
   font-size: 1.4rem;
+  line-height: 2.5rem;
 }
 
 .grn-wrning {
@@ -712,6 +751,7 @@ p.about-subhead {
 
 p.about-story {
   font-size: 1.4rem;
+  line-height: 2.5rem;
 }
 
 div.about-imgbox {
@@ -793,7 +833,7 @@ img.about-img8 {
 /* === Contact page === */
 
 body#contact {
-  color: #FFFFFF;
+  background: #212228;
 }
 
 
@@ -920,7 +960,7 @@ button {
     width:100%;
   }
   /*--- index.html media-query ipad --- */
-  .footer-links-mail {
+  .footer-link-1 {
     display: flex;
     height: 33%;
     width: 17%;
@@ -928,29 +968,14 @@ button {
     padding: 1.0rem 1.0rem;
   }
   /*--- index.html media-query ipad --- */
-  .footer-links-insta {
+  .footer-link-2 {
     display: flex;
     height: 15%;
     width:15%;
     justify-content: center;
     padding: 1.0rem 1.0rem;
   }
-  /*--- index.html media-query ipad --- */
-  .footer-links-git {
-    display: flex;
-    height: 15%;
-    width:15%;
-    justify-content: center;
-    padding: 1.0rem 1.0rem;
-  }
-  /*--- index.html media-query ipad --- */
-  .footer-links-linked {
-    display: flex;
-    height: 15%;
-    width:15%;
-    justify-content: center;
-    padding: 1.0rem 1.0rem;
-  }
+
   /*--- index.html media-query ipad --- */
   .footer-copy {
     font-size: 1.43rem;
@@ -1205,6 +1230,7 @@ button {
   p.about-story {
     font-size: 1.6rem;
     padding-top: 2.4rem;
+    line-height: 2.5rem;rem;
   }
 
   /*--- about.html media-query ipad --- */
@@ -1282,7 +1308,7 @@ button {
   }
   /*--- index.html media-query desktop --- */
   p.hero-p {
-    font-size: 4.6rem;
+    font-size: 5.6rem;
     letter-spacing: .1rem;
   }
   /*--- index.html media-query desktop --- */
@@ -1317,6 +1343,7 @@ button {
     min-width: 28rem;
     padding: 1rem 2rem;
   }
+
   /*--- index.html media-query desktop --- */
   .busy-btn {
     font-size: 2.4rem;
@@ -1336,7 +1363,7 @@ button {
     padding: 1rem 2rem;
   }
   /*--- index.html media-query desktop --- */
-  .hero-dwn-btn {
+  .direction-btn {
     /* display: flex; */
     height: 8rem;
     width:8rem;
@@ -1425,7 +1452,7 @@ button {
   }
   /*--- index.html media-query desktop --- */
   p.project-info {
-    font-size: 3.2rem;
+    font-size: 2.6rem;
     line-height: 162.2%;
     /* padding: 2.2rem 0rem 4.0rem 0rem; */
   }
@@ -1455,7 +1482,7 @@ button {
   }
   /*--- index.html media-query desktop --- */
   p.footer-outro {
-    font-size: 2.4rem;
+    font-size: 1.8rem;
     font-weight: 500;
   }
   /*--- index.html media-query desktop --- */
@@ -1466,37 +1493,21 @@ button {
     width:100%;
   }
   /*--- index.html media-query desktop --- */
-  .footer-links-mail {
+  .footer-link-1 {
     display: flex;
-    height: 20%;
-    width: 12.2%;
+    /* height: 20%; */
+    width: 8.2%;
     justify-content: center;
     padding: 1.0rem 1.0rem;
   }
   /*--- index.html media-query desktop --- */
-  .footer-links-insta {
+  .footer-link-2 {
     display: flex;
-    height: 10%;
-    width:10%;
+    width:7%;
     justify-content: center;
     padding: 1.0rem 1.0rem;
   }
-  /*--- index.html media-query desktop --- */
-  .footer-links-git {
-    display: flex;
-    height: 10%;
-    width:10%;
-    justify-content: center;
-    padding: 1.0rem 1.0rem;
-  }
-  /*--- index.html media-query desktop --- */
-  .footer-links-linked {
-    display: flex;
-    height: 10%;
-    width:10%;
-    justify-content: center;
-    padding: 1.0rem 1.0rem;
-  }
+
   /*--- index.html media-query desktop --- */
   .footer-copy {
     font-size: 1.43rem;
@@ -1551,6 +1562,7 @@ button {
   /*--- clouder.html media-query desktop --- */
   p.cs-cldr {
     font-size: 2.4rem;
+    line-height: 4rem;
     /* padding-top: 3rem; */
   }
   /*--- clouder.html media-query desktop --- */
@@ -1618,10 +1630,21 @@ button {
     margin: 0 21.5rem;
     padding-top: 5rem;
   }
-  /*--- clouder.html media-query desktop --- */
-  /* div.comp-ana {
-    margin-left: 40%;
-  } */
+  /*--- index.html media-query desktop --- */
+  .comp-links {
+    display: flex;
+    justify-content: center;
+    max-width: 300rem;
+    width:100%;
+  }
+
+  /*--- index.html media-query desktop --- */
+  .comp-link-2 {
+    display: flex;
+    width:18%;
+    justify-content: center;
+    padding: 1.0rem 1.0rem;
+  }
 
 
   /*--- clouder.html media-query desktop --- */
@@ -1632,6 +1655,14 @@ button {
   section.user-personas {
     margin: 5.0rem 21.5rem;
   }
+
+  .persona-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 25.5rem
+}
+
   /*--- clouder.html media-query desktop --- */
   .btn-wht-cs {
     font-size: 2.4rem;
@@ -1775,9 +1806,12 @@ button {
 
   /*--- clouder.html media-query desktop --- */
   .style-guide-img {
-    margin: 0 21.5rem;
-    height: 20%;
-    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* margin: 0 21.5rem; */
+
+    /* width: 60%; */
   }
 
   /*--- clouder.html media-query desktop --- */
@@ -1856,6 +1890,7 @@ button {
   /*--- about.html media-query desktop --- */
   p.about-intro {
     font-size: 2.4rem;
+    line-height: 4rem;
     max-width: 73rem;
   }
 
@@ -1972,7 +2007,7 @@ button {
 
   /*--- about.html media-query desktop --- */
   img.about-img8 {
-    height: 48.0rem;
+    height: 54.0rem;
     object-fit: cover;
     object-position: 50% 0%;
     width: 40.8rem;
@@ -2018,7 +2053,8 @@ button {
 
   /*--- about.html media-query desktop --- */
   p.about-story {
-    font-size: 2.4rem;
+    font-size: 2.0rem;
+    line-height: 4rem;
     padding-top: 2.4rem;
   }
 
@@ -2082,3 +2118,4 @@ button {
     width:20%;
     margin-bottom: 40%;
   }
+}

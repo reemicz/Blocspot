@@ -33,16 +33,18 @@
 <body id="clouder">
 
   <!--header: this code should be on every page consecutively-->
-  <div id="wrapper">
-      <header class="dark-nav">
+  <div id="wrapperclouder">
+    <header class="dark-nav">
           <div id="logo">
-              <img src="assets/icons/logo-nav-wht.svg" alt="Tullie Helene logo with T-UH-L-ee pronunciation guide">
+            <a href="index.html">
+              <img src="assets/icons/logo-nav-wht-sans.svg" alt="Tullie Helene logo with T-UH-Lee phonetics"></a>
           </div>
           <nav>
               <ul>
-                  <li><a class="link" href="index.html">Home</a></li>
                   <li><a class="link" href="index.html#section-next">Projects</a></li>
                   <li><a class="link" href="about.html">About</a></li>
+                  <li><a class="link" href="contact.html">Contact</a></li>
+
               </ul>
           </nav>
       </header>
@@ -59,8 +61,10 @@
 <div class="clouder-img2">
   <img src="assets/pages/cs-clouder/clouder-intro.png" alt="CLOUDER desktop versions and mobile render">
 </div>
+<div class="btn-spacing">
   <div class="center">
-<a class="btn-wht-cs" href="https://invis.io/SWR1W8AF8RU" target="_blank">See InVision Prototype</a>
+<a class="btn-wht-cs" href="https://invis.io/SWR1W8AF8RU" target="_blank">SEE PROTOTYPE</a>
+</div>
 </div>
 </section>
 
@@ -140,7 +144,7 @@ Clouder aims to meet the data capacity of all file types, the ability to create 
 <img src="assets/pages/cs-clouder/puzzle.svg" alt="Puzzle with a Missing piece">
 </div>
 <h2 class="cs-cldr">THE PROBLEM </h2>
-<p  class="cs-cldr"> The challenge we ran into was that there weren’t any
+<p class="cs-cldr"> The challenge we ran into was that there weren’t any
   limitations on how far I could push the overall project.
 Our main constraint was the lack of direction that Clouder
 wanted to go in.<br>
@@ -222,16 +226,40 @@ plethora of platforms to build the project.</p>
           but curated it - allowing users to share, create and collaborate in the service.<br><br>
 
 
-          I put 5 companies under the microscope:<br></p>
-          <!-- <div class="comp-ana"> -->
+          I put 4 companies under the microscope:<br></p>
+
                 <ul>
                   <li><em>- Patreon</em></li>
                   <li><em>- Splice</em></li>
                   <li><em>- Dropbox</em></li>
                   <li><em>- Soundcloud</em></li>
-                  <li><em>- Google Drive</em></li>
                 </ul><br>
-              <!-- </div> -->
+
+                <div class="comp-links">
+                <div class="comp-link-2">
+                  <a href="https://www.patreon.com/" target="_blank">
+                  <img src="assets/pages/cs-clouder/patreonlogo.png" alt="Patreon.com"></a>
+                </div>
+
+                <div class="comp-link-2">
+                  <a href="https://splice.com/" target="_blank">
+                  <img src="assets/pages/cs-clouder/splicelogo.png" alt="Splice.com"></a>
+                </div>
+                <div class="comp-link-2">
+                  <a href="https://www.dropbox.com/" target="_blank">
+                  <img src="assets/pages/cs-clouder/dropboxlogo.png" alt="Dropbox.com"></a>
+                </div>
+                <div class="comp-link-2">
+                  <a href="https://soundcloud.com/" target="_blank">
+                  <img src="assets/pages/cs-clouder/soundcloudlogo.png" alt="Soundcloud"></a>
+                </div>
+                </div>
+
+                <div class="btn-spacing">
+               <div class="center">
+                 <a class="btn-wht-cs" href="https://docs.google.com/document/d/1Inl4MHuLFG_c4MhfZIy7XKb6zAsCUozPdu82XrstEFI/edit?usp=sharing" target="_blank">SEE MORE</a>
+               </div>
+             </div>
 
         <p class="cs-cldr">With Google Drive and Dropbox being the most well-known of the five, their combined
           limitations on file types and size left a user for wanting more.<br>
@@ -252,21 +280,29 @@ plethora of platforms to build the project.</p>
           audience was, and how we were going to serve them to combat their current
           frustrations and what was going to keep them interested and motivated about Clouder.</p>
         </section>
-          <div class="user-per-box">
-            <div class="user-per-img">
-              <img src="assets/pages/cs-clouder/user1.png" alt="User1">
-            </div>
-            <div class="user-per-img">
-          <img src="assets/pages/cs-clouder/user2.png" alt="User2">
+
+
+
+        <div class="persona-box">
+          <div class="user-person">
+            <img src="assets/pages/cs-clouder/ross.png">
+          </div>
+
+          <div class="user-person">
+            <img src="assets/pages/cs-clouder/monica.png">
+          </div>
+
+          <div class="user-person">
+            <img src="assets/pages/cs-clouder/calvin.png">
+          </div>
         </div>
-        <div class="user-per-img">
-          <img src="assets/pages/cs-clouder/user3.png" alt="User3">
-        </div>
-      </div>
+
       <section class="user-personas">
         <p class="cs-cldr">Although all users utilized cloud storage in different fashions, their combined
-          frustrations were fairly similar across the board.<br> Frustrations included:<br><br></p>
-
+      frustrations were fairly similar across the board. It was important to know their goals, but it was
+       paramount that we address their pain points, even when they weren't fully aware of verbalizing
+       what it was that was bothersome.</br><br>
+       Frustrations included:<br><br></p>
           <div id="user-per-frust">
           <em><ul>
               <li>- Limitations to certain files types.</li>
@@ -294,6 +330,12 @@ plethora of platforms to build the project.</p>
               From these stories, I developed user flows to create a visual hierachy and
               then began to redesign their flows to make getting from point A to point B
               more accessible in fewer steps. </p>
+
+              <div class="btn-spacing">
+             <div class="center">
+             <a class="btn-wht-cs" href="https://drive.google.com/open?id=1Afi_VgEGrMwqXN7Uj5HGO0nF9WdODPEs" target="_blank">SEE USER FLOWS</a>
+           </div>
+         </div>
               </section>
 
               <div class="user-strs-flws">
@@ -316,6 +358,12 @@ plethora of platforms to build the project.</p>
                 tendency to sketch without thinking too hard about previous designs while
                 allowing some imagination to run free with possibilities.</p>
               </section>
+
+              <div class="btn-spacing">
+             <div class="center">
+               <a class="btn-wht-cs" href="https://drive.google.com/open?id=1jHty3-AwByan53a1-BcK7WpZxqg1IdFI" target="_blank">SEE WIREFRAME SKETCHES</a>
+             </div>
+</div>
 
               <div class="wireframe-comp">
                   <img src="assets/pages/cs-clouder/wireframesketchbanner.png" alt="Banner of Hand drawn sketches">
@@ -360,9 +408,11 @@ plethora of platforms to build the project.</p>
                 I conducted my first round of user testing after deploying the prototype.<br>
                   It was my aim to see if my current design was simple and clear enough for users
                   to navigate the site in it’s barest state - and then grow from there.<br><br></p>
+                  <div class="btn-spacing">
                   <div class="center">
-                  <a class="btn-wht" href="https://invis.io/J6PU829RS4G" target="_blank">See InVision prototype</a>
+                  <a class="btn-wht-cs" href="https://invis.io/J6PU829RS4G" target="_blank">SEE LOFI PROTOTYPE</a>
                 </div>
+              </div>
               <p class="cs-cldr">The key takeaways were that the burger menu posed a problem, although users
                 who navigated the site who were used to the burger menu were quick to spot the icon,
                 we still needed to create a clear message that the menu was there
@@ -370,6 +420,43 @@ plethora of platforms to build the project.</p>
                 on the landing page would make the user more aware of the sites capabilities.</p>
               </section>
 
+                          <div class="btn-spacing">
+                            <div class="center">
+                            <a class="btn-wht-cs" href="https://drive.google.com/open?id=1Nh_Uef-_1-fQB-GKiTzhBwwEMyIsRiz4" target="_blank">SEE FIRST MOCKS</a>
+                          </div>
+                        </div>
+
+              <section class="visual-landing">
+                <div class="process-phase">
+                  <div class="cs-icons">
+                      <img src="assets/pages/cs-clouder/flasks.svg" alt="Science Flasks">
+                    </div>
+                      <h1 class="cs-cldr"> USER TESTING & ITERATIONS </h1>
+                      <h2 class="cs-cldr"> ROUND 1</h2>
+                    </div>
+                <h2 class="cs-cldr"> VISUAL DESIGN : HOVER BUTTON </h2>
+                <p class="cs-cldr">Synthesizing the feedback from these tests helped to ensure that each revision to the
+                  design was borne out of improving usability and not just aesthetics.<br><br>
+
+                  Some of the greatest feedback came was to highlight the menu and drop down iconography for
+                   users who weren’t aware of the burger menu or dropdown feature.<br>
+                   To combat confusion and frustration I implemented a hover button when the mouse hovers
+                   over the icons that weren’t as apparent to the user - this proved successful in our
+                   second round of testing. </p>
+
+                   <div class="btn-spacing">
+                   <div class="center">
+                   <a class="btn-wht-cs" href="https://docs.google.com/document/d/1QoQBVL5HHLN2bvvAOmWjc53RZjyGM--_HjjdaUJN0TM/edit?usp=sharing" target="_blank">SEE USABILITY SCRIPT</a>
+                   </div>
+                 </div>
+
+
+            <img class="cldr-srnshts" src="assets/pages/cs-clouder/hover-off.png" alt="User Dashboard without Hover">
+            <img class="cldr-srnshts" src="assets/pages/cs-clouder/hover-on.png" alt="User Dashboard with Hover">
+
+            <img class="cldr-srnshts-menu" src="assets/pages/cs-clouder/closeup-hover.png" alt="Close-up of Hover state">
+
+              </section>
           <div class="process-phase">
               <div class="cs-icons">
                 <img src="assets/pages/cs-clouder/visual.svg" alt="Pen and Pencil Icon">
@@ -388,6 +475,12 @@ plethora of platforms to build the project.</p>
                    I started sketching ideas that would translate the values to our desired audience.<br>
                   The more I sketched, the more I felt a draw towards simpler ideas that had deeper meaning.</p>
                 </section>
+
+                <div class="btn-spacing">
+                <div class="center">
+                  <a class="btn-wht-cs" href="https://drive.google.com/open?id=1sQQ-E_P7z9bdYsKlAjR_aJRO-xczamH-" target="_blank">SEE LOGO SKETCHES</a>
+                </div>
+              </div>
 
                   <img src="assets/pages/cs-clouder/sketches-banner.png" alt="Banner of Original Clouder Logo Ideas">
 
@@ -440,7 +533,7 @@ plethora of platforms to build the project.</p>
                     <img class="color-cs" src="assets/pages/cs-clouder/colorscheme.png" alt="Clouder Color Scheme"></p>
                   </section>
 
-                  <section class="image-iconography">
+                  <!-- <section class="image-iconography">
                     <h2 class="cs-cldr"> IMAGE & ICONOGRAPHY </h2>
                     <p class="cs-cldr">I opted for no animation and simple signs to direct our users to their appropriate
                       destination.
@@ -458,40 +551,47 @@ plethora of platforms to build the project.</p>
                     <img class="iconis" src="assets/pages/cs-clouder/airportchill.png" alt="Man relaxing at airport">
                     <img class="iconis" src="assets/pages/cs-clouder/iconography.png" alt="Clouder Icon Guide">
                     <img class="iconis" src="assets/pages/cs-clouder/books1.png" alt="Books stacked up">
-                  </div>
+                  </div> -->
 
 
                 <section class="style-guide">
                     <h2 class="cs-cldr"> STYLE GUIDE </h2>
-                    <div class="style-guide-img">
+                      <p class="cs-cldr">Building out the style guide, brought insights as an overall look of Clouder.
+                        It offered up a wealth of knowledge about the aesthetics, and served as a constant reminder for the brands parameters.<br>
+                        <div class="style-guide-img">
                       <img src="assets/pages/cs-clouder/styleguide1.png" alt="Style Guide Cover">
                       <img src="assets/pages/cs-clouder/styleguide2.png" alt="Style Guide Page 1">
                     </div>
                     </section>
 
-                    <div class="center">
-                    <a class="btn-wht" href="https://www.figma.com/file/DBELWehwF6CsJX1I8lL55Bwg/Clouder-Style-Guide?node-id=0%3A1" target="_blank">See style guide</a>
-                  </div>
+                    <div class="btn-spacing">
+                 <div class="center">
+                 <a class="btn-wht-cs" href="https://www.figma.com/file/DBELWehwF6CsJX1I8lL55Bwg/Clouder-Style-Guide?node-id=0%3A1" target="_blank">SEE STYLE GUIDE</a>
+               </div>
+             </div>
 
 
                 <section class="hifi-mockups">
                     <h2 class="cs-cldr">HIGH FIDELITY MOCKUPS </h2>
+                    <div class="btn-spacing">
                     <div class="center">
-                      <a class="btn-wht" href="https://invis.io/2HR12XWETJF" target="_blank">First HiFi prototype</a>
+                      <a class="btn-wht-cs" href="https://invis.io/2HR12XWETJF" target="_blank">SEE HIFI PROTOTYPE</a>
                     </div>
+                  </div>
 
                       <img class="cldr-srnshts" src="assets/pages/cs-clouder/landinginitial1.png" alt="First HiFi Landing Page">
 
                     </section>
 
-
+                    <section class="visual-landing">
                 <div class="process-phase">
                   <div class="cs-icons">
                       <img src="assets/pages/cs-clouder/flasks.svg" alt="Science Flasks">
                     </div>
                       <h1 class="cs-cldr"> USER TESTING & ITERATIONS </h1>
+                      <h2 class="cs-cldr"> ROUND 2</h2>
                     </div>
-                    <section class="visual-landing">
+
                       <h2 class="cs-cldr"> VISUAL DESIGN : LANDING PAGE </h2>
                       <p class="cs-cldr">Feedback from my first round of users, there was a heavy focus on the visuals of
                         the landing page, and that although they could see that it was a cloud storage site,
@@ -518,7 +618,7 @@ plethora of platforms to build the project.</p>
                     </div>
               </div>
 
-                  <h2 class="cs-cldr"> VISUAL DESIGN : HOVER BUTTON </h2>
+                  <!-- <h2 class="cs-cldr"> VISUAL DESIGN : HOVER BUTTON </h2>
                   <p class="cs-cldr">Synthesizing the feedback from these tests helped to ensure that each revision to the
                     design was borne out of improving usability and not just aesthetics.<br><br>
 
@@ -531,7 +631,7 @@ plethora of platforms to build the project.</p>
               <img class="cldr-srnshts" src="assets/pages/cs-clouder/hover-off.png" alt="User Dashboard without Hover">
               <img class="cldr-srnshts" src="assets/pages/cs-clouder/hover-on.png" alt="User Dashboard with Hover">
 
-              <img class="cldr-srnshts-menu" src="assets/pages/cs-clouder/closeup-hover.png" alt="Close-up of Hover state">
+              <img class="cldr-srnshts-menu" src="assets/pages/cs-clouder/closeup-hover.png" alt="Close-up of Hover state"> -->
 
 
           </section>
@@ -557,7 +657,7 @@ plethora of platforms to build the project.</p>
         </div>
 
         <div class="cldr-srnshts">
-          <img src="assets/pages/cs-clouder/clouderdesktop1.png" alt="Desktop Signin Render">
+          <img src="assets/pages/cs-clouder/clouderedesktop1.png" alt="Desktop Signin Render">
         </div>
 
         <div class="cldr-srnshts">
@@ -565,9 +665,11 @@ plethora of platforms to build the project.</p>
       </div>
     </section>
 
+    <div class="btn-spacing">
     <div class="center">
-      <a class="btn-wht" href="https://invis.io/SWR1W8AF8RU" target="_blank">Final prototype</a>
+      <a class="btn-wht-cs" href="https://invis.io/SWR1W8AF8RU" target="_blank">Final prototype</a>
     </div>
+  </div>
 
 
     <section class="conclusion">
@@ -599,15 +701,18 @@ plethora of platforms to build the project.</p>
             I am looking forward to blueprinting and drafting further in my future projects.</p>
         </section>
 
-        <div class="pre-footer">
-          <a class="btn-grn" href="#logo">BACK TO TOP</a>
-        </div>
-
+        <!--- pre-footer --->
+                  <div class="pre-footer">
+                    <a href="#logo">
+                      <img class="direction-btn up" src="assets/icons/goup.svg" alt="Green Arrow Up"></a>
+                    <!-- <p class="footer-copy"> Back to top </p> -->
+                  </div>
+          <!-- Footer-->
     <!-- Footer-->
 
         <section class="footer">
            <p class="footer-outro">Thanks for stopping by.<br>
-             Want to chat about creating cool sh*t?<br>
+             Want to chat about creating magic?<br>
              Maybe UX design or product development?<br><br>
              Looking forward to hearing from you.</p>
 
@@ -616,26 +721,27 @@ plethora of platforms to build the project.</p>
             </div>
 
             <div class="footer-links">
-            <div class="footer-links-mail">
-            <a href="contact.html">
+            <div class="footer-link-1">
+              <a href="contact.html" target="_blank">
               <img src="assets/icons/email-blk.png" alt="Email Tullie Helene"></a>
             </div>
 
-            <div class="footer-links-git">
-              <a href="https://github.com/tulliehelene">
-              <img src="assets/icons/github-blk.png" target="_blank" alt="Github | Tullie Helene"></a>
+            <div class="footer-link-2">
+              <a href="https://github.com/tulliehelene" target="_blank">
+              <img src="assets/icons/github-blk.png" alt="Github | Tullie Helene"></a>
             </div>
-            <div class="footer-links-insta">
-              <a href="https://www.instagram.com/tulliehelene/">
-              <img src="assets/icons/insta-blk.png" target="_blank" alt="Instagram | Tullie Helene"></a>
+            <div class="footer-link-2">
+              <a href="https://www.instagram.com/tulliehelene/" target="_blank">
+              <img src="assets/icons/insta-blk.png" alt="Instagram | Tullie Helene"></a>
             </div>
-            <div class="footer-links-linked">
-              <a href="https://www.linkedin.com/in/tulliehelene/">
-              <img src="assets/icons/linked-blk.png" target="_blank" alt="Linkedin | Tullie Helene"></a>
+            <div class="footer-link-2">
+              <a href="https://www.linkedin.com/in/tulliehelene/" target="_blank">
+              <img src="assets/icons/linked-blk.png" alt="Linkedin | Tullie Helene"></a>
             </div>
             </div>
             <p class="footer-copy">Page Designed & Developed by Tullie Helene | © 2019</p>
-          </section>
+
+        </section>
         <!-- </section> -->
       </div>
 
