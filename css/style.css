@@ -260,6 +260,10 @@ p.project-info {
   /* margin-top: 5.0rem; */
 }
 
+.img-size {
+  align-content: center;
+}
+
 /* === Footer Selections === */
 
 /* .dark-footer {
